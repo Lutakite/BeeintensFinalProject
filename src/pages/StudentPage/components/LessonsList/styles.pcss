@@ -1,0 +1,55 @@
+.lessons {
+  display: flex;
+  align-items: center;
+}
+
+.lesson {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lessonNum, .done {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin: -1px -1px 0 0;
+}
+
+.done0{
+  background-color: white;
+}
+
+.done1{
+  background-color: yellow;
+}
+
+.done2{
+  background-color: #00e600;
+}
+
+.done0, .done1, .done2, .done3, .done4{
+  color: black;
+}
+
+.done2::before {
+  content: "+";
+}
+.done3::before {
+  content: "-";
+}
+.done4::before {
+  content: "x";
+}
+
+.done3{
+  background-color: red;
+}
+
+.done4{
+  background-color: grey;
+}
+
+.topAlign { align-items: flex-start; }

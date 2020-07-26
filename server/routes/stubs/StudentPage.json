@@ -1,0 +1,124 @@
+{
+  "data": {
+    "studentName": "Дмитриева Светлана Михайловна",
+    "lessons": [
+      {
+        "lessonNum": "1",
+        "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+        "lessonUrl": "/lessons/1",
+        "done": 2
+      }, {
+        "lessonNum": "2",
+        "lessonName": "Поиск элементов средствами Webdriver; работа с элементами (клики, отправка данных в инпуты и т.д.); получение значений атрибутов, работа с загрузкой файлов; ожидания",
+        "lessonUrl": "/lessons/2",
+        "done": 2
+      }, {
+        "lessonNum": "3",
+        "lessonName": "Обзор тестовых фреймворков (Mocha и пр.); обзор основных инструментов для тестирования пользовательского интерфейса на JS: Protractor, NightwatchJS, Cypress, WebdriverIO; детально рассматриваем WebdriverIO: настройка, основные методы",
+        "lessonUrl": "/lessons/3",
+        "done": 2
+      }, {
+        "lessonNum": "4",
+        "lessonName": "Знакомство с Allure-reporter; написание первых простых тестов с использованием WebdriverIO",
+        "lessonUrl": "/lessons/4",
+        "done": 2
+      }, {
+        "lessonNum": "5",
+        "lessonName": "Основные принципы паттерна Page Objects: для чего нужен, при чём тут ООП; описание страниц",
+        "lessonUrl": "/lessons/5",
+        "done": 2
+      }, {
+        "lessonNum": "6",
+        "lessonName": "Воркшоп: от настройки проекта до готового отчёта с результатами",
+        "lessonUrl": "/lessons/6",
+        "done": 2
+      }, {
+        "lessonNum": "7",
+        "lessonName": "Продвинутое изучение Git. Стандартный набор команд для работы с ветками (git pull, git push, git status, git checkout, git add, git commit и тд.)",
+        "lessonUrl": "/lessons/7",
+        "done": 2
+      }, {
+        "lessonNum": "8",
+        "lessonName": "Слияние веток. Разрешение конфликтов при слиянии веток Workflow в команде. Code Review",
+        "lessonUrl": "/lessons/8",
+        "done": 2
+      }, {
+        "lessonNum": "9",
+        "lessonName": "Структура HTML. Назначение блоков: <head />, <body />. Виды подключения стилей",
+        "lessonUrl": "/lessons/9",
+        "done": 2
+      }, {
+        "lessonNum": "10",
+        "lessonName": "Базовый синтаксис CSS: селекторы, классы, псевдоклассы",
+        "lessonUrl": "/lessons/10",
+        "done": 2
+      }, {
+        "lessonNum": "11",
+        "lessonName": "Блочная верстка",
+        "lessonUrl": "/lessons/11",
+        "done": 2
+      }, {
+        "lessonNum": "12",
+        "lessonName": "Правила позиционирования, внутренние и внешние отступы",
+        "lessonUrl": "/lessons/12",
+        "done": 2
+      }, {
+        "lessonNum": "13",
+        "lessonName": "Принципы современной верстки сайта на flex",
+        "lessonUrl": "/lessons/13",
+        "done": 1
+      }, {
+          "lessonNum": "15",
+          "lessonName": "HTML формы",
+          "lessonUrl": "/lessons/15",
+          "done": 4
+      }, {
+          "lessonNum": "16",
+          "lessonName": "Адаптивная вёрстка. Использование media и viewport",
+          "lessonUrl": "/lessons/16",
+          "done": 2
+      }, {
+
+        "lessonNum": "17",
+        "lessonName": "Панель разработчика Chrome",
+        "lessonUrl": "/lessons/17",
+        "done": 0
+    }, {        
+          "lessonNum": "23",
+          "lessonName": "События в JavaScript. Обработка событий. Всплытие",
+          "lessonUrl": "/lessons/23",
+          "done": 3
+      }
+    ]
+  },
+  "common": {
+    "view": "DetailsPage",
+    "navigation": {
+      "sections": [
+        {
+          "slug": "test",
+          "name": "Тестовые задания",
+          "url": "https://beeinterns.ru/"
+        }, {
+          "slug": "lessons",
+          "name": "Лекции",
+          "url": "/lessons"
+        }, {
+          "slug": "professors",
+          "name": "Преподаватели",
+          "url": "/professors"
+        }, {
+          "slug": "about",
+          "name": "О программе",
+          "url": "https://beeinterns.ru/"
+        }
+      ],
+      "core": [{
+        "slug": "exit",
+        "name": "Выход"
+      }]
+    }
+  }
+}
+
+

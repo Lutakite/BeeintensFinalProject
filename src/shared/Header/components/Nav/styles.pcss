@@ -1,0 +1,20 @@
+@import "styles/constants.pcss";
+
+.container {
+  display: inline-flex;
+  white-space: nowrap;
+  font: var(--smallFont);
+}
+
+.component {
+  text-decoration: none;
+
+  &.active { border-bottom: 2px solid var(--backgroundColor); }
+  & + & { margin-left: 50px; }
+  & + &.hasIcon { margin-left: 35px; }
+}
+
+.icon {
+  margin-right: 12px;
+  vertical-align: top;
+}
