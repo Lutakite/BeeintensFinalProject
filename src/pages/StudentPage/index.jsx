@@ -12,7 +12,7 @@ const cx = classNames.bind(commonStyles);
 export default function StudentPage() {
   return (
     <PageLayout>
-      <StudentName className={cx('student')}/>
+      <StudentName className={cx('container')}/>
       <LessonsList className={cx('container')}/>
     </PageLayout>
   );
