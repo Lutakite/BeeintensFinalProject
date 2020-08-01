@@ -83,12 +83,214 @@
         "lessonName": "Панель разработчика Chrome",
         "lessonUrl": "/lessons/17",
         "done": 0
+        
     }, {        
           "lessonNum": "23",
           "lessonName": "События в JavaScript. Обработка событий. Всплытие",
           "lessonUrl": "/lessons/23",
           "done": 3
-      }
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }, {
+      "lessonNum": "1",
+      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+      "lessonUrl": "/lessons/1",
+      "done": 2
+    }
+
     ]
   },
   "common": {
