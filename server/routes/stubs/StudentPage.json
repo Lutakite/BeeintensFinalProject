@@ -84,213 +84,157 @@
         "lessonUrl": "/lessons/17",
         "done": 0
         
-    }, {        
-          "lessonNum": "23",
-          "lessonName": "События в JavaScript. Обработка событий. Всплытие",
-          "lessonUrl": "/lessons/23",
-          "done": 3
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "18",
+      "lessonName": "Отладка кода в браузере Chrome",
+      "lessonUrl": "/lessons/18",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "19",
+      "lessonName": "Введение в JavaScript. Основные конструкции языка, переменные, типы данных. Часть 1",
+      "lessonUrl": "/lessons/19",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "20",
+      "lessonName": "Введение в JavaScript. Основные конструкции языка, переменные, типы данных. Часть 2",
+      "lessonUrl": "/lessons/20",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "21",
+      "lessonName": "Функции. Циклы. Объекты. This. Часть 1",
+      "lessonUrl": "/lessons/21",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "22",
+      "lessonName": "Функции. Циклы. Объекты. This. Часть 2",
+      "lessonUrl": "/lessons/22",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "23",
+      "lessonName": "События в JavaScript. Обработка событий. Всплытие",
+      "lessonUrl": "/lessons/23",
+      "done": 3
+    }, {
+      "lessonNum": "24",
+      "lessonName": "События в JavaScript. Обработка событий. Всплытие",
+      "lessonUrl": "/lessons/24",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "25",
+      "lessonName": "Свойства и методы форм. События: focus, blur, change",
+      "lessonUrl": "/lessons/25",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "26",
+      "lessonName": "Отправка формы на сервер submit",
+      "lessonUrl": "/lessons/26",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "27",
+      "lessonName": "Заголовки запросов",
+      "lessonUrl": "/lessons/27",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "28",
+      "lessonName": "XHR запросы",
+      "lessonUrl": "/lessons/28",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "29",
+      "lessonName": "Асинхронный JavaScript (Promise, Async/Await)",
+      "lessonUrl": "/lessons/29",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "30",
+      "lessonName": "Cookie; SessionStorage, localStorage",
+      "lessonUrl": "/lessons/30",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "31",
+      "lessonName": "Обзор объекта window",
+      "lessonUrl": "/lessons/31",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "32",
+      "lessonName": "Введение в npm",
+      "lessonUrl": "/lessons/32",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "33",
+      "lessonName": "Инициализация проекта. Обзор package.json",
+      "lessonUrl": "/lessons/33",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "34",
+      "lessonName": "Современные технологии Frontend-сборки, Webpack. Написание webpack.config. Часть 1",
+      "lessonUrl": "/lessons/34",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "35",
+      "lessonName": "Современные технологии Frontend-сборки, Webpack. Написание webpack.config. Часть 2",
+      "lessonUrl": "/lessons/35",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "36",
+      "lessonName": "Развертывание/настройка React приложения (интернет-магазин). Часть 1",
+      "lessonUrl": "/lessons/36",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "37",
+      "lessonName": "Развертывание/настройка React приложения (интернет-магазин). Часть 2",
+      "lessonUrl": "/lessons/37",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "38",
+      "lessonName": "Знакомство с React, и его экосистемой: State, Virtual DOM, JSX",
+      "lessonUrl": "/lessons/38",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "39",
+      "lessonName": "React Life Circle",
+      "lessonUrl": "/lessons/39",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "40",
+      "lessonName": "Обработка событий в React компонентах",
+      "lessonUrl": "/lessons/40",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "41",
+      "lessonName": "Работа с ref элемента",
+      "lessonUrl": "/lessons/41",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "42",
+      "lessonName": "Как устроен React-router",
+      "lessonUrl": "/lessons/42",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "43",
+      "lessonName": "Настройка: react-router, history",
+      "lessonUrl": "/lessons/43",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "44",
+      "lessonName": "Подключение Redux.js. Связь компонентов с логикой",
+      "lessonUrl": "/lessons/44",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "45",
+      "lessonName": "Функциональный подход, Redux dev tools, возможности для мониторинга состояния приложения",
+      "lessonUrl": "/lessons/45",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "46",
+      "lessonName": "Разбираем Higher Order Components",
+      "lessonUrl": "/lessons/46",
       "done": 2
     }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
-      "done": 2
-    }, {
-      "lessonNum": "1",
-      "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
-      "lessonUrl": "/lessons/1",
+      "lessonNum": "47",
+      "lessonName": "Разбираем React Hooks",
+      "lessonUrl": "/lessons/47",
       "done": 2
     }
-
     ]
   },
   "common": {
