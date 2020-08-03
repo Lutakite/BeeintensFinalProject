@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 a {
@@ -61,6 +62,41 @@ a::hover{
 
 .done4{
   background-color: grey;
+}
+
+.lessonHw_hidden{
+  display: none;
+}
+
+.lessonHw_shown{
+  max-width: 320px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1;
+  top: 100px;
+  left: 100px;
+}
+
+.hwForm, .inputContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.label, .inputContainer{
+  margin-bottom: 20px;
+}
+
+.btn{
+  max-width: 100px;
+}
+
+.inputField, .btn{
+  border-radius: 10px;
+  padding: 8px;
 }
 
 .topAlign { align-items: flex-start; }
