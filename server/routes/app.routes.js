@@ -4,8 +4,8 @@ module.exports = [{
   getSlug: () => 'StudentPage',
   Component: 'App',
 }, {
-  url: ['/posturl'],
+  url: ['/lessons/*'],
   type: 'model',
-  getSlug: () => 'response',
+  getSlug: () => 'LessonPage',
   Component: 'App',
 }];

@@ -9,15 +9,18 @@ export default (model) => deepmerge({
   texts: {
     common: {
       nav: {
-        search: 'Поиск',
-        lk: 'Личный кабинет',
-        fav: 'Избранное',
-        cart: 'Корзина',
+        //search: 'Поиск',
+        //lk: 'Личный кабинет',
+        //fav: 'Избранное',
+        //cart: 'Корзина',
+        exit: 'Выход',
       },
     },
-    catalog: {
+    /*catalog: {
       viewTypes: {
         model: 'Показать на модели',
+        student: 'ЛК интерна',
+        lesson: 'Урок',
       },
       sortFilter: {
         label: 'Сортировать',
@@ -29,6 +32,7 @@ export default (model) => deepmerge({
       actionButtonLabel: 'Добавить в корзину',
       favButtonLabel: 'В избранное',
       upsaleProductsHeading: 'Хорошо сочетается',
-    },
+    },*/
   },
 }, model, { arrayMerge: (_, incoming) => incoming });
+

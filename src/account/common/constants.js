@@ -1,6 +1,6 @@
 /** Page Views */
 export const HOME_PAGE = 'HomePage';
-export const CATALOG_PAGE = 'CatalogPage';
-export const DETAILS_PAGE = 'DetailsPage';
+export const STUDENT_PAGE = 'StudentPage';
+export const LESSON_PAGE = 'LessonPage';
 
-export const PageViews = [HOME_PAGE, CATALOG_PAGE, DETAILS_PAGE];
+export const PageViews = [HOME_PAGE, STUDENT_PAGE, LESSON_PAGE];
