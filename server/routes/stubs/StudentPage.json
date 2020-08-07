@@ -238,7 +238,7 @@
     ]
   },
   "common": {
-    "view": "DetailsPage",
+    "view": "StudentPage",
     "navigation": {
       "sections": [
         {

@@ -5,7 +5,7 @@ import commonStyles from 'styles/common.pcss';
 
 import { PageLayout } from 'shared';
 
-import { StudentName, LessonsList, HwForm } from './components';
+import { StudentName, LessonsList } from './components';
 
 const cx = classNames.bind(commonStyles);
 

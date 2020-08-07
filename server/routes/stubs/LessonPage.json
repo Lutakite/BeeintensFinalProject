@@ -1,0 +1,37 @@
+{
+  "data": {
+    "lessonNum": "1",
+    "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
+    "lessonYoutube": "https://www.youtube.com/embed/CueJDjYDmXk"
+  },
+  "common": {
+    "view": "LessonPage",
+    "navigation": {
+      "sections": [
+        {
+          "slug": "test",
+          "name": "Тестовые задания",
+          "url": "https://beeinterns.ru/"
+        }, {
+          "slug": "lessons",
+          "name": "Лекции",
+          "url": "/lessons"
+        }, {
+          "slug": "professors",
+          "name": "Преподаватели",
+          "url": "/professors"
+        }, {
+          "slug": "about",
+          "name": "О программе",
+          "url": "https://beeinterns.ru/"
+        }
+      ],
+      "core": [{
+        "slug": "exit",
+        "name": "Выход"
+      }]
+    }
+  }
+}
+
+
