@@ -8,4 +8,9 @@ module.exports = [{
   type: 'model',
   getSlug: () => 'LessonPage',
   Component: 'App',
+}, {
+  url: ['/lessons'],
+  type: 'model',
+  getSlug: () => 'LessonsPage',
+  Component: 'App',
 }];

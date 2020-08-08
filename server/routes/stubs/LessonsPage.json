@@ -1,244 +1,289 @@
 {
   "data": {
-    "studentName": "Дмитриева Светлана Михайловна",
     "lessons": [
       {
         "lessonNum": "1",
         "lessonName": "Введение: какие бывают автотесты, для чего нужны; что такое Selenium Webdriver; основные html-теги, основные атрибуты, DOM; xpath- и css-селекторы",
         "lessonUrl": "/lessons/1",
-        "done": 2
+        "date": "05.03",
+        "professor": "Павел Уколов"
       }, {
         "lessonNum": "2",
         "lessonName": "Поиск элементов средствами Webdriver; работа с элементами (клики, отправка данных в инпуты и т.д.); получение значений атрибутов, работа с загрузкой файлов; ожидания",
         "lessonUrl": "/lessons/2",
-        "done": 2
+        "date": "10.03",
+        "professor": "Павел Уколов"
       }, {
         "lessonNum": "3",
         "lessonName": "Обзор тестовых фреймворков (Mocha и пр.); обзор основных инструментов для тестирования пользовательского интерфейса на JS: Protractor, NightwatchJS, Cypress, WebdriverIO; детально рассматриваем WebdriverIO: настройка, основные методы",
         "lessonUrl": "/lessons/3",
-        "done": 2
+        "date": "12.03",
+        "professor": "Александр Жалейко"
       }, {
         "lessonNum": "4",
         "lessonName": "Знакомство с Allure-reporter; написание первых простых тестов с использованием WebdriverIO",
         "lessonUrl": "/lessons/4",
-        "done": 2
+        "date": "16.03",
+        "professor": "Александр Жалейко"
       }, {
         "lessonNum": "5",
         "lessonName": "Основные принципы паттерна Page Objects: для чего нужен, при чём тут ООП; описание страниц",
         "lessonUrl": "/lessons/5",
-        "done": 2
+        "date": "19.03",
+        "professor": "Павел Уколов"
       }, {
         "lessonNum": "6",
         "lessonName": "Воркшоп: от настройки проекта до готового отчёта с результатами",
         "lessonUrl": "/lessons/6",
-        "done": 2
+        "date": "23.03",
+        "professor": "Павел Уколов"
       }, {
         "lessonNum": "7",
         "lessonName": "Продвинутое изучение Git. Стандартный набор команд для работы с ветками (git pull, git push, git status, git checkout, git add, git commit и тд.)",
         "lessonUrl": "/lessons/7",
-        "done": 2
+        "date": "26.03",
+        "professor": "Станислав Тарасов"
       }, {
         "lessonNum": "8",
         "lessonName": "Слияние веток. Разрешение конфликтов при слиянии веток Workflow в команде. Code Review",
         "lessonUrl": "/lessons/8",
-        "done": 2
+        "date": "30.03",
+        "professor": "Станислав Тарасов"
       }, {
         "lessonNum": "9",
         "lessonName": "Структура HTML. Назначение блоков: <head />, <body />. Виды подключения стилей",
         "lessonUrl": "/lessons/9",
-        "done": 2
+        "date": "02.04",
+        "professor": "Марина Татаринцева"
       }, {
         "lessonNum": "10",
         "lessonName": "Базовый синтаксис CSS: селекторы, классы, псевдоклассы",
         "lessonUrl": "/lessons/10",
-        "done": 2
+        "date": "06.04",
+        "professor": "Марина Татаринцева"
       }, {
         "lessonNum": "11",
         "lessonName": "Блочная верстка",
         "lessonUrl": "/lessons/11",
-        "done": 2
+        "date": "09.04",
+        "professor": "Вендер Александр"
       }, {
         "lessonNum": "12",
         "lessonName": "Правила позиционирования, внутренние и внешние отступы",
         "lessonUrl": "/lessons/12",
-        "done": 2
+        "date": "13.04",
+        "professor": "Вендер Александр"
       }, {
         "lessonNum": "13",
         "lessonName": "Принципы современной верстки сайта на flex",
         "lessonUrl": "/lessons/13",
-        "done": 1
+        "date": "16.04",
+        "professor": "Марина Татаринцева"
       }, {
         "lessonNum": "14",
         "lessonName": "Работа с тегами: img, picture, a, p, H1-H6. Псевдоэлементы: before, after",
         "lessonUrl": "/lessons/14",
-        "done": 4
-    },{
+        "date": "20.04",
+        "professor": "Марина Татаринцева"
+      }, {
           "lessonNum": "15",
           "lessonName": "HTML формы",
           "lessonUrl": "/lessons/15",
-          "done": 4
+          "date": "23.04",
+          "professor": "Павел Захаров"
       }, {
           "lessonNum": "16",
           "lessonName": "Адаптивная вёрстка. Использование media и viewport",
           "lessonUrl": "/lessons/16",
-          "done": 2
+          "date": "27.04",
+          "professor": "Павел Захаров"
       }, {
 
         "lessonNum": "17",
         "lessonName": "Панель разработчика Chrome",
         "lessonUrl": "/lessons/17",
-        "done": 0
+        "date": "30.04",
+        "professor": "Иван Щедрин"
         
     }, {
       "lessonNum": "18",
       "lessonName": "Отладка кода в браузере Chrome",
       "lessonUrl": "/lessons/18",
-      "done": 2
+      "date": "07.05",
+      "professor": "Иван Щедрин"
     }, {
       "lessonNum": "19",
       "lessonName": "Введение в JavaScript. Основные конструкции языка, переменные, типы данных. Часть 1",
       "lessonUrl": "/lessons/19",
-      "done": 2
+      "date": "11.05",
+      "professor": "Махмуд Бабаев"
     }, {
       "lessonNum": "20",
       "lessonName": "Введение в JavaScript. Основные конструкции языка, переменные, типы данных. Часть 2",
       "lessonUrl": "/lessons/20",
-      "done": 2
+      "date": "14.05",
+      "professor": "Махмуд Бабаев"
     }, {
       "lessonNum": "21",
       "lessonName": "Функции. Циклы. Объекты. This. Часть 1",
       "lessonUrl": "/lessons/21",
-      "done": 2
+      "date": "18.05",
+      "professor": "Рома Синеоков"
     }, {
       "lessonNum": "22",
       "lessonName": "Функции. Циклы. Объекты. This. Часть 2",
       "lessonUrl": "/lessons/22",
-      "done": 2
+      "date": "21.05",
+      "professor": "Рома Синеоков"
     }, {
       "lessonNum": "23",
       "lessonName": "События в JavaScript. Обработка событий. Всплытие",
       "lessonUrl": "/lessons/23",
-      "done": 3
+      "date": "25.05",
+      "professor": "Василий Ханинев"
     }, {
       "lessonNum": "24",
       "lessonName": "Свойства и методы форм. События: focus, blur, change",
       "lessonUrl": "/lessons/24",
-      "done": 2
+      "date": "28.05",
+      "professor": "Василий Ханинев"
     }, {
       "lessonNum": "25",
       "lessonName": "Отправка формы на сервер submit",
       "lessonUrl": "/lessons/25",
-      "done": 2
+      "date": "01.06",
+      "professor": "Станислав Тарасов"
     }, {
       "lessonNum": "26",
       "lessonName": "Заголовки запросов",
       "lessonUrl": "/lessons/26",
-      "done": 2
+      "date": "04.06",
+      "professor": "Станислав Тарасов"
     }, {
       "lessonNum": "27",
       "lessonName": "XHR запросы",
       "lessonUrl": "/lessons/27",
-      "done": 2
+      "date": "08.06",
+      "professor": "Павел Захаров"
     }, {
       "lessonNum": "28",
       "lessonName": "Асинхронный JavaScript (Promise, Async/Await)",
       "lessonUrl": "/lessons/28",
-      "done": 2
+      "date": "11.06",
+      "professor": "Павел Захаров"
     }, {
       "lessonNum": "29",
       "lessonName": "Cookie; SessionStorage, localStorage",
       "lessonUrl": "/lessons/29",
-      "done": 2
+      "date": "15.06",
+      "professor": "Олег Скирюк"
     }, {
       "lessonNum": "30",
       "lessonName": "Обзор объекта window",
       "lessonUrl": "/lessons/30",
-      "done": 2
+      "date": "18.06",
+      "professor": "Олег Скирюк"
     }, {
       "lessonNum": "31",
       "lessonName": "Введение в npm",
       "lessonUrl": "/lessons/31",
-      "done": 2
+      "date": "22.06",
+      "professor": "Махмуд Бабаев"
     }, {
       "lessonNum": "32",
       "lessonName": "Инициализация проекта. Обзор package.json",
       "lessonUrl": "/lessons/32",
-      "done": 2
+      "date": "25.06",
+      "professor": "Махмуд Бабаев"
     }, {
       "lessonNum": "33",
       "lessonName": "Современные технологии Frontend-сборки, Webpack. Написание webpack.config. Часть 1",
       "lessonUrl": "/lessons/33",
-      "done": 2
+      "date": "29.06",
+      "professor": "Олег Скирюк"
     }, {
       "lessonNum": "34",
       "lessonName": "Современные технологии Frontend-сборки, Webpack. Написание webpack.config. Часть 2",
       "lessonUrl": "/lessons/34",
-      "done": 2
+      "date": "02.07",
+      "professor": "Олег Скирюк"
     }, {
       "lessonNum": "35",
       "lessonName": "Развертывание/настройка React приложения (интернет-магазин). Часть 1",
       "lessonUrl": "/lessons/35",
-      "done": 2
+      "date": "06.07",
+      "professor": "Иван Малюгин"
     }, {
       "lessonNum": "36",
       "lessonName": "Развертывание/настройка React приложения (интернет-магазин). Часть 2",
       "lessonUrl": "/lessons/36",
-      "done": 2
+      "date": "09.07",
+      "professor": "Иван Малюгин"
     }, {
       "lessonNum": "37",
       "lessonName": "Знакомство с React, и его экосистемой: State, Virtual DOM, JSX",
       "lessonUrl": "/lessons/37",
-      "done": 2
+      "date": "13.07",
+      "professor": "Вендер Александр"
     }, {
       "lessonNum": "38",
       "lessonName": "React Life Circle",
       "lessonUrl": "/lessons/38",
-      "done": 2
+      "date": "16.07",
+      "professor": "Вендер Александр"
     }, {
       "lessonNum": "39",
       "lessonName": "Обработка событий в React компонентах",
       "lessonUrl": "/lessons/39",
-      "done": 2
+      "date": "20.07",
+      "professor": "Иван Щедрин"
     }, {
       "lessonNum": "40",
       "lessonName": "Работа с ref элемента",
       "lessonUrl": "/lessons/40",
-      "done": 2
+      "date": "23.07",
+      "professor": "Иван Щедрин"
     }, {
       "lessonNum": "41",
       "lessonName": "Как устроен React-router",
       "lessonUrl": "/lessons/41",
-      "done": 2
+      "date": "27.07",
+      "professor": "Иван Малюгин"
     }, {
       "lessonNum": "42",
       "lessonName": "Настройка: react-router, history",
       "lessonUrl": "/lessons/42",
-      "done": 2
+      "date": "30.07",
+      "professor": "Иван Малюгин"
     }, {
       "lessonNum": "43",
       "lessonName": "Подключение Redux.js. Связь компонентов с логикой",
       "lessonUrl": "/lessons/43",
-      "done": 2
+      "date": "03.08",
+      "professor": "Василий Ханинев"
     }, {
       "lessonNum": "44",
       "lessonName": "Функциональный подход, Redux dev tools, возможности для мониторинга состояния приложения",
       "lessonUrl": "/lessons/44",
-      "done": 2
+      "date": "06.08",
+      "professor": "Василий Ханинев"
     }, {
       "lessonNum": "45",
       "lessonName": "Разбираем Higher Order Components",
       "lessonUrl": "/lessons/45",
-      "done": 2
+      "date": "10.08",
+      "professor": "Рома Синеоков"
     }, {
       "lessonNum": "46",
       "lessonName": "Разбираем React Hooks",
       "lessonUrl": "/lessons/46",
-      "done": 2
+      "date": "13.08",
+      "professor": "Рома Синеоков"
     }
     ]
   },
   "common": {
-    "view": "StudentPage",
+    "view": "LessonsPage",
     "navigation": {
       "sections": [
         {
