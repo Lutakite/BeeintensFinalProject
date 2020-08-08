@@ -287,9 +287,9 @@
     "navigation": {
       "sections": [
         {
-          "slug": "test",
-          "name": "Тестовые задания",
-          "url": "https://beeinterns.ru/"
+          "slug": "ЛК",
+          "name": "Личный кабинет",
+          "url": "/"
         }, {
           "slug": "lessons",
           "name": "Лекции",

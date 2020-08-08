@@ -5,14 +5,14 @@ import commonStyles from 'styles/common.pcss';
 
 import { PageLayout } from 'shared';
 
-import { LessonsList } from './components';
+import { ProfessorsList } from './components';
 
 const cx = classNames.bind(commonStyles);
 
-export default function LessonsPage() {  
+export default function ProfessorsPage() {  
   return (
     <PageLayout>
-      <LessonsList className={cx('container')}/>
+      <ProfessorsList className={cx('container')}/>
     </PageLayout>
   );
 }

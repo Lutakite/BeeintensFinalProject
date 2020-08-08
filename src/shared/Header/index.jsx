@@ -20,7 +20,7 @@ function Header({ isDesktop, isMobile, className }) {
               )}
             </SectionNavList>
           ) : null}
-          <Logo />
+          { isDesktop ? <Logo /> : null }
           { !isMobile ? (
             <CoreNavList>
               {({ slug, name }) => (
