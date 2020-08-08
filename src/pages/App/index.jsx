@@ -5,12 +5,13 @@ import { connect } from 'react-redux';
 
 import { initializeStore } from 'account';
 import { getPageView } from 'account/common/selectors';
-import { PageViews, STUDENT_PAGE, LESSON_PAGE} from 'account/common/constants';
+import { PageViews, STUDENT_PAGE, LESSON_PAGE, LESSONS_PAGE} from 'account/common/constants';
 import { withDataConverter, withHMR, withReduxStore, withAdaptivity } from 'enhancers';
 import { breakpoints, setBreakpoint, getBreakpoint } from 'account/common/breakpoint';
 
 import StudentPage from '../StudentPage';
 import LessonPage from '../LessonPage';
+import LessonsPage from '../LessonsPage';
 import dataConverter from './dataConverter';
 
 
@@ -21,8 +22,10 @@ function App({ view }) {
       return <StudentPage />;
   
     case LESSON_PAGE:
-      //default:
       return <LessonPage />;
+      
+    case LESSONS_PAGE:
+      return <LessonsPage />;
   }
 }
 
