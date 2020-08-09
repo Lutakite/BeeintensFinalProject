@@ -13,38 +13,21 @@ let hideHistory = true;
 
 
 const Lesson = (lessonNum, lessonName, lessonUrl, done) => {
-  const [hiddenForm, setHiddenForm] = useState(true);
-  const [hiddenHistory, setHiddenHistory] = useState(true);
+  const [hidden, setHidden] = useState(true);
 
   const handleClick = (lessonNum, done) => {
     return () => {
-      if (hiddenHistory === true) {
+      if (hidden === true) {
         clicked = lessonNum;
-        if (done === 0 || done === 4) {
-          hideHistory = true;
-        } else {
-          hideHistory = false;
-        }
-        if (done === 2 || done === 4) {
-            hideForm = true;
-        } else {
-          hideForm = false;
-        }
+        hideHistory = (done === 0 || done === 4) ? true : false;
+        hideForm = (done === 1 || done === 2 || done === 4) ? true : false;
       }
       else{
         clicked = 0;
         hideHistory = true;
         hideForm = true;
       }
-      setHiddenHistory(!hiddenHistory);
-      if (done === 2 || done === 4) {
-        setHiddenForm(true);
-      }
-      //hideHistory = hiddenHistory;
-      //hideForm = hiddenForm;
-      console.log(`clicked:${clicked}`);
-      console.log(`hideHistory:${hideHistory}`);
-      console.log(`hideForm:${hideForm}`);
+      setHidden(!hidden);
     }
   };
 
@@ -73,11 +56,25 @@ const Form = (className) => {
   }
 };
 
-const History = (className) => {
+const HistoryLine = (id, date, desc) => {
+  return (
+    <div className={cx('lessonHistoryLine')} key={id}>
+      <div className={cx('lessonHistoryDate')}>{date}</div>
+      <div className={cx('')}>{desc}</div>
+    </div>
+    )
+};
+
+const History = (list, className) => { 
   if (clicked != 0 && hideHistory === false) {
     return (
-    <div>
-      История{clicked}
+    <div className={cx('lessonHistoryBlock', className)}>
+      <div className={cx('lessonHistoryName', className)}>История сдачи домашнего задания по лекции №{clicked}</div>
+      <div className={cx('lessonHistory', className)}>
+        {list[clicked-1].history.map(({ id, date, desc }) => (
+            HistoryLine(id, date, desc)
+        ))}
+      </div>
     </div>
     )
   }
@@ -88,11 +85,11 @@ function LessonsList({ list, className }) {
   return (
     <div className={cx('studentView', className)}>
       <div className={cx('lessons', className)}>
-        {list.map(({ lessonNum, lessonName, lessonUrl, done }) => (
+        {list.map(({ lessonNum, lessonName, lessonUrl, done, history }) => (
           Lesson(lessonNum, lessonName, lessonUrl, done)
         ))}
       </div>
-      {History()}
+      {History(list)}
       {Form()}
     </div>
   );
