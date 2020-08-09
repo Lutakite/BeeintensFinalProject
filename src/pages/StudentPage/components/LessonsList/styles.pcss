@@ -18,15 +18,26 @@ a::hover{
   width: 40px;
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
 }
 
 .lessonNum, .done {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  border: 1px solid #000;
   box-sizing: border-box;
-  margin: -1px -1px 0 0;
+  border-radius: 12px;
+  /*border: 1px solid white;
+  margin: -1px -1px 0 0;*/
+}
+
+.lessonNum {
+  background-color: rgba(205, 214, 219, 0.2);
+  margin-bottom: 2px;
+}
+
+.done{
+  margin-bottom: 20px;
 }
 
 .done0{
@@ -38,14 +49,23 @@ a::hover{
 }
 
 .done2{
-  background-color: #00e600;
+  background-color: rgba(0, 230, 0, 0.5);
 }
 
-.done0, .done1, .done2, .done3, .done4{
+.done3{
+  background-color: red;
+}
+
+.done4{
+  background-color: rgba(205, 214, 219, 0.3);
+}
+
+.done0, .done1, .done2, .done3, .done4 {
   color: black;
+}
+.done0, .done1, .done2, .done3 {
   cursor: pointer;
 }
-
 .done2::before {
   content: "+";
 }
@@ -56,13 +76,6 @@ a::hover{
   content: "x";
 }
 
-.done3{
-  background-color: red;
-}
-
-.done4{
-  background-color: grey;
-}
 
 .lessonHw_hidden{
   display: none;
@@ -100,3 +113,7 @@ a::hover{
 }
 
 .topAlign { align-items: flex-start; }
+
+.studentView{
+  margin-bottom: 20px;
+}
