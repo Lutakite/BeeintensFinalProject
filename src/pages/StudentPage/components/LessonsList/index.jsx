@@ -8,24 +8,43 @@ import { getLessonsList } from 'account/StudentPage/data/selectors';
 import styles from './styles.pcss';
 const cx = classNames.bind(styles);
 let clicked = 0;
-let localStorage = window.localStorage;
-localStorage.setItem('lessonClicked', '0');
+let hideForm = true;
+let hideHistory = true;
 
 
 const Lesson = (lessonNum, lessonName, lessonUrl, done) => {
-  const [hidden, setHidden] = useState(true);
+  const [hiddenForm, setHiddenForm] = useState(true);
+  const [hiddenHistory, setHiddenHistory] = useState(true);
 
-  const handleClick = (lessonNum) => {
+  const handleClick = (lessonNum, done) => {
     return () => {
-      if (hidden === true) {
+      if (hiddenHistory === true) {
         clicked = lessonNum;
-        localStorage.setItem('lessonClicked', lessonNum);
+        if (done === 0 || done === 4) {
+          hideHistory = true;
+        } else {
+          hideHistory = false;
+        }
+        if (done === 2 || done === 4) {
+            hideForm = true;
+        } else {
+          hideForm = false;
+        }
       }
       else{
         clicked = 0;
-        localStorage.setItem('lessonClicked', '0');
+        hideHistory = true;
+        hideForm = true;
       }
-      setHidden(!hidden);
+      setHiddenHistory(!hiddenHistory);
+      if (done === 2 || done === 4) {
+        setHiddenForm(true);
+      }
+      //hideHistory = hiddenHistory;
+      //hideForm = hiddenForm;
+      console.log(`clicked:${clicked}`);
+      console.log(`hideHistory:${hideHistory}`);
+      console.log(`hideForm:${hideForm}`);
     }
   };
 
@@ -33,14 +52,13 @@ const Lesson = (lessonNum, lessonName, lessonUrl, done) => {
   return (
   <div className={cx('lesson')} key={lessonNum}>
     <div className={cx('lessonNum')}><a href={lessonUrl} title={lessonName}>{lessonNum}</a></div>
-    <div className={cx('done'+done, 'done')} onClick={handleClick(lessonNum)}></div>
+    <div className={cx('done'+done, 'done')} onClick={handleClick(lessonNum, done)}></div>
   </div>
   )
 };
 
 const Form = (className) => {
-
-  if (clicked != 0) {
+  if (clicked != 0 && hideForm === false) {
     return (
     <form className={cx('hwForm', className)} method="POST" name="form">
       <section className={cx('inputContainer', className)}>
@@ -55,16 +73,17 @@ const Form = (className) => {
   }
 };
 
+const History = (className) => {
+  if (clicked != 0 && hideHistory === false) {
+    return (
+    <div>
+      История{clicked}
+    </div>
+    )
+  }
+};
+
 function LessonsList({ list, className }) {
-  const [hidden, setHidden] = useState(true);
-
-  const handleClick = (lessonNum) => {
-    return () => {
-      console.log("clicked: ", lessonNum);
-      setHidden(!hidden);
-    }
-  };
-
 
   return (
     <div className={cx('studentView', className)}>
@@ -73,6 +92,7 @@ function LessonsList({ list, className }) {
           Lesson(lessonNum, lessonName, lessonUrl, done)
         ))}
       </div>
+      {History()}
       {Form()}
     </div>
   );
