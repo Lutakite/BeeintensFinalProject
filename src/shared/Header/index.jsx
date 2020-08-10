@@ -6,6 +6,8 @@ import { isScreenBelow1400, isScreenBelow800 } from 'account/common/breakpoint/s
 import { Flex } from 'components';
 import { HeaderLayout, SectionNavList, CoreNavList, NavItem, Logo } from './components';
 import ContentIndent from '../ContentIndent';
+// import './components/Nav/mobile.css';
+import  SectionMobileNavList from './SectionMobileNavList.js';
 
 
 function Header({ isDesktop, isMobile, className }) {
@@ -19,15 +21,23 @@ function Header({ isDesktop, isMobile, className }) {
                 <NavItem href={url} key={slug}>{name}</NavItem>
               )}
             </SectionNavList>
-          ) : null}
-          { isDesktop ? <Logo /> : null }
+          ) : <SectionNavList>
+          {({ slug, name, url }) => (
+            <NavItem href={url} key={slug}>{name}</NavItem>
+          )}
+        </SectionNavList>}
+          { isDesktop ? <Logo /> : <Logo /> } 
           { !isMobile ? (
             <CoreNavList>
               {({ slug, name }) => (
                 <NavItem type={slug} key={slug}>{name}</NavItem>
               )}
             </CoreNavList>
-          ) : null}
+          ) : <CoreNavList>
+          {({ slug, name }) => (
+            <NavItem type={slug} key={slug}>{name}</NavItem>
+          )}
+        </CoreNavList>}
         </Flex>
       </ContentIndent>
     </HeaderLayout>
