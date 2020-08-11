@@ -5,9 +5,10 @@ import NavListRenderer from './NavListRenderer';
 
 
 export const SectionNavList = connect(state => ({
-  list: getSectionNav(state),
+    list: getSectionNav(state),
 }))(NavListRenderer);
 
 export const CoreNavList = connect(state => ({
-  list: getCoreNav(state),
+    list: getCoreNav(state),
 }))(NavListRenderer);
+

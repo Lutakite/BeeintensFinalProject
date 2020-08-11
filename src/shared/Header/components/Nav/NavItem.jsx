@@ -18,6 +18,8 @@ export default function NavItem({ children, type, href, className }) {
   );
 }
 
+
+
 NavItem.propTypes = {
   children: PropTypes.node,
   href: PropTypes.string,
