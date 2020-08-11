@@ -45,7 +45,7 @@ const Form = (className) => {
     return (
     <form className={cx('hwForm', className)} method="POST" name="form">
       <section className={cx('inputContainer', className)}>
-        <label className={cx('label', className)} for="hwLink">Отправить на проверку домашнее задание по лекции №{clicked}</label>
+        <label className={cx('label', className)}>Отправить на проверку домашнее задание по лекции №{clicked}</label>
         <textarea className={cx('inputField', className)} type="text" id="hwLink" name="hwLink" rows="10"></textarea>
       </section>
       <button className={cx('btn', 'submit', className)} type="submit">
