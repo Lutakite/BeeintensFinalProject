@@ -26,7 +26,7 @@ function Header({ isDesktop, isMobile, className }) {
             <NavItem href={url} key={slug}>{name}</NavItem>
           )}
         </SectionNavList>}
-          { isDesktop ? <Logo /> : <Logo /> } 
+          { isDesktop ? <Logo /> : null } 
           { !isMobile ? (
             <CoreNavList>
               {({ slug, name }) => (

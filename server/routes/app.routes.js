@@ -18,4 +18,9 @@ module.exports = [{
   type: 'model',
   getSlug: () => 'ProfessorsPage',
   Component: 'App',
+}, {
+  url: ['/student/igig5bkn34hiy6ud'],
+  type: 'model',
+  getSlug: () => 'StudentPage2',
+  Component: 'App',
 }];
