@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597784459811' stop='1597784476716'>
+    <name>Beeline final project</name>
+    <title>Beeline final project</title>
+    <test-cases>
+        <test-case start='1597784459811' status='passed' stop='1597784460525'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597784460525' status='undefined'>
+            <name>Перейти на вкладку "Личный кабинет"</name>
+            <title>Перейти на вкладку "Личный кабинет"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597784460526' status='failed' stop='1597784464690'>
+            <name>Перейти на вкладку "Личный кабинет"</name>
+            <title>Перейти на вкладку "Личный кабинет"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='07bbc0c4-9f4f-4c08-bae7-64d5238fb403-attachment.png' type='image/png' size='414908'/>
+            </attachments>
+            <failure>
+                <message>expected 'Дмитриева Светлана Михайловна' to equal 'Дмитриев Светлан Михайа'</message>
+                <stack-trace>AssertionError: expected 'Дмитриева Светлана Михайловна' to equal 'Дмитриев Светлан Михайа'
+                    at Context.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (9)\BeeintensFinalProject\tester\tests\/testsForFinalProject.js:20:44)
+                    at Context.executeSync (C:\Users\SidWonder\Desktop\Новая папка (9)\BeeintensFinalProject\tester\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\SidWonder\Desktop\Новая папка (9)\BeeintensFinalProject\tester\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597784464690' status='undefined'>
+            <name>Перейти на вкладку "Лекции"</name>
+            <title>Перейти на вкладку "Лекции"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597784464691' status='passed' stop='1597784468196'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597784468196' status='undefined'>
+            <name>Перейти на вкладку "Преподаватели"</name>
+            <title>Перейти на вкладку "Преподаватели"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597784468196' status='passed' stop='1597784471680'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597784471681' status='undefined'>
+            <name>Перейти на вкладку "О программе"</name>
+            <title>Перейти на вкладку "О программе"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597784471681' status='passed' stop='1597784476715'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

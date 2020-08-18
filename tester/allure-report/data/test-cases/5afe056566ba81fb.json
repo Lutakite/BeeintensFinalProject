@@ -1,0 +1,106 @@
+{
+  "uid" : "5afe056566ba81fb",
+  "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "fullName" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ.Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "historyId" : "b3f10eecc785252d7385e5d7c9d62ca3",
+  "time" : {
+    "start" : 1597417923435,
+    "stop" : 1597417928168,
+    "duration" : 4733
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected values to be loosely deep-equal:\n                \n                'https://moskva.beeline.ru/shop/basket/'\n                \n                should loosely deep-equal\n                \n                'https://moskva.beeline.ru/shop/basket/#?step=orderList'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:\n                \n                'https://moskva.beeline.ru/shop/basket/'\n                \n                should loosely deep-equal\n                \n                'https://moskva.beeline.ru/shop/basket/#?step=orderList'\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:129:16)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected values to be loosely deep-equal:\n                \n                'https://moskva.beeline.ru/shop/basket/'\n                \n                should loosely deep-equal\n                \n                'https://moskva.beeline.ru/shop/basket/#?step=orderList'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:\n                \n                'https://moskva.beeline.ru/shop/basket/'\n                \n                should loosely deep-equal\n                \n                'https://moskva.beeline.ru/shop/basket/#?step=orderList'\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:129:16)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Нажать на кнопку \"Купить\" смартфона из середины списка",
+      "time" : {
+        "start" : 1597417924853,
+        "stop" : 1597417924853,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что URL изменился на URL страницы корзины",
+      "time" : {
+        "start" : 1597417927243,
+        "stop" : 1597417927243,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9e3f322e2dd47c55",
+      "name" : "Screenshot",
+      "source" : "9e3f322e2dd47c55.png",
+      "type" : "image/png",
+      "size" : 24656
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5afe056566ba81fb.json",
+  "parameterValues" : [ "chrome" ]
+}

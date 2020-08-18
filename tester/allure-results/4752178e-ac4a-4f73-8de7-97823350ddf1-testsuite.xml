@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584878304461' stop='1584878315430'>
+    <name>HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ</name>
+    <title>HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ</title>
+    <test-cases>
+        <test-case start='1584878304462' status='passed' stop='1584878310254'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584878310254' status='passed' stop='1584878312651'>
+            <name>Переход в раздел "Телефоны" состоялся</name>
+            <title>Переход в раздел "Телефоны" состоялся</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584878310256' status='passed' stop='1584878310256'>
+                    <name>Нажать на ссылку "Телефоны"</name>
+                    <title>Нажать на ссылку "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584878312530' status='passed' stop='1584878312530'>
+                    <name>Проверить, что URL изменился на верный</name>
+                    <title>Проверить, что URL изменился на верный</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584878312651' status='passed' stop='1584878314780'>
+            <name>Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia</name>
+            <title>Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584878312652' status='passed' stop='1584878312652'>
+                    <name>Нажать на "Показать все" в блоке производителей</name>
+                    <title>Нажать на "Показать все" в блоке производителей</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584878313028' status='passed' stop='1584878313028'>
+                    <name>Выбрать Nokia в фильтре</name>
+                    <title>Выбрать Nokia в фильтре</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584878314744' status='passed' stop='1584878314744'>
+                    <name>Проверить, что все смартфоны из списка – Nokia</name>
+                    <title>Проверить, что все смартфоны из списка – Nokia</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584878314781' status='broken' stop='1584878315428'>
+            <name>Клик на кнопку "Купить" из середины списка приводит к переходу в корзину</name>
+            <title>Клик на кнопку "Купить" из середины списка приводит к переходу в корзину</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584878314814' status='passed' stop='1584878314814'>
+                    <name>Нажать на кнопку "Купить" смартфона из середины списка</name>
+                    <title>Нажать на кнопку "Купить" смартфона из середины списка</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ee2b2eb3-80a7-4dfe-818d-476bfddd1446-attachment.png' type='image/png' size='429020'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property '8' of undefined</message>
+                <stack-trace>TypeError: Cannot read property '8' of undefined
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:140:41)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

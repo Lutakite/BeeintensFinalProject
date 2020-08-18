@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584471383971' stop='1584471399487'>
+    <name>Test Beeline Shop</name>
+    <title>Test Beeline Shop</title>
+    <test-cases>
+        <test-case start='1584471383971' status='undefined'>
+            <name>1 Show all Apple phones</name>
+            <title>1 Show all Apple phones</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584471383972' status='passed' stop='1584471391971'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps>
+                <step start='1584471383973' status='passed' stop='1584471383973'>
+                    <name>Пользователь открывает главную страницу магазина</name>
+                    <title>Пользователь открывает главную страницу магазина</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471385768' status='passed' stop='1584471385768'>
+                    <name>Пользователь проверяет, что главная страница магазина открыта успешно</name>
+                    <title>Пользователь проверяет, что главная страница магазина открыта успешно</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471385769' status='passed' stop='1584471385769'>
+                    <name>Пользователь переходит на страницу "Телефоны"</name>
+                    <title>Пользователь переходит на страницу "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471388354' status='passed' stop='1584471388354'>
+                    <name>Пользователь проверяет, что он успешно перешел на страницу "Телефоны"</name>
+                    <title>Пользователь проверяет, что он успешно перешел на страницу "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471388356' status='passed' stop='1584471388356'>
+                    <name>Пользователь разворачивает всех производителей телефонов</name>
+                    <title>Пользователь разворачивает всех производителей телефонов</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471389175' status='passed' stop='1584471389175'>
+                    <name>Пользователь выбирает производителя Apple</name>
+                    <title>Пользователь выбирает производителя Apple</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471391946' status='passed' stop='1584471391946'>
+                    <name>Пользователь проверяют, что отображены телефоны Apple</name>
+                    <title>Пользователь проверяют, что отображены телефоны Apple</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584471391971' status='undefined'>
+            <name>2 Buy cheap phone</name>
+            <title>2 Buy cheap phone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584471391971' status='passed' stop='1584471399486'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps>
+                <step start='1584471391972' status='passed' stop='1584471391972'>
+                    <name>Пользователь открывает главную страницу магазина</name>
+                    <title>Пользователь открывает главную страницу магазина</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471393087' status='passed' stop='1584471393087'>
+                    <name>Пользователь проверяет, что главная страница магазина открыта успешно</name>
+                    <title>Пользователь проверяет, что главная страница магазина открыта успешно</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471393087' status='passed' stop='1584471393087'>
+                    <name>Пользователь переходит на страницу "Телефоны"</name>
+                    <title>Пользователь переходит на страницу "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471393502' status='passed' stop='1584471393502'>
+                    <name>Пользователь проверяет, что он успешно перешел на страницу "Телефоны"</name>
+                    <title>Пользователь проверяет, что он успешно перешел на страницу "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471393505' status='passed' stop='1584471393505'>
+                    <name>Пользователь сортирует телефоны по цене</name>
+                    <title>Пользователь сортирует телефоны по цене</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471396654' status='passed' stop='1584471396654'>
+                    <name>Пользователь выбирает смартфон из середины списка и нажимает кнопку "Купить"</name>
+                    <title>Пользователь выбирает смартфон из середины списка и нажимает кнопку "Купить"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584471397967' status='passed' stop='1584471397967'>
+                    <name>Пользователь проверяет, что в корзине находится выбранный смартфон</name>
+                    <title>Пользователь проверяет, что в корзине находится выбранный смартфон</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

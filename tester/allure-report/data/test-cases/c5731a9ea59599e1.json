@@ -1,0 +1,280 @@
+{
+  "uid" : "c5731a9ea59599e1",
+  "name" : "Фильтр по ценам работает корректно",
+  "fullName" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ.Фильтр по ценам работает корректно",
+  "historyId" : "d77d000bce64224e6214b710198cae17",
+  "time" : {
+    "start" : 1597418354532,
+    "stop" : 1597418354745,
+    "duration" : 213
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить цены отображенных товаров",
+      "time" : {
+        "start" : 1597418354532,
+        "stop" : 1597418354532,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418354699,
+        "stop" : 1597418354699,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418354744,
+        "stop" : 1597418354744,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418354745,
+        "stop" : 1597418354745,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418354745,
+        "stop" : 1597418354745,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Фильтр по ценам работает корректно"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3130979031e28fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415988632,
+        "stop" : 1597415988723,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "7e1c38284838eef7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415940928,
+        "stop" : 1597415941174,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "3008ebda4fedeb68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415728230,
+        "stop" : 1597415728537,
+        "duration" : 307
+      }
+    }, {
+      "uid" : "64979c02dd0ac6bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880726590,
+        "stop" : 1584880726702,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "e380a2590059a040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877245580,
+        "stop" : 1584877245722,
+        "duration" : 142
+      }
+    }, {
+      "uid" : "4f98436a2a4a89f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877162819,
+        "stop" : 1584877162971,
+        "duration" : 152
+      }
+    }, {
+      "uid" : "2448c04391ef354e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877088143,
+        "stop" : 1584877088271,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "4fc1212be631716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877050037,
+        "stop" : 1584877050073,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "1aff9d1531bda5be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876972176,
+        "stop" : 1584876972207,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "d1796cb7ae970e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876905541,
+        "stop" : 1584876905570,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "372cd6a6bba2b623",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:\n                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584876692272,
+        "stop" : 1584876692927,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "93e91c1cd949d173",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876344395,
+        "stop" : 1584876344533,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "257230c615f4902b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876217970,
+        "stop" : 1584876218101,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "9ee09926dee2df39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876177442,
+        "stop" : 1584876177569,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "1247926967e2f2ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876128782,
+        "stop" : 1584876128916,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "d74e4da4cb1865c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828684147,
+        "stop" : 1584828684251,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "450d6f86fdd02278",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828550079,
+        "stop" : 1584828550193,
+        "duration" : 114
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5731a9ea59599e1.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584822716246' stop='1584822741464'>
+    <name>Test Beeline Shop</name>
+    <title>Test Beeline Shop</title>
+    <test-cases>
+        <test-case start='1584822716247' status='passed' stop='1584822723204'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584822723205' status='broken' stop='1584822740621'>
+            <name>Переход в раздел "Телефоны" состоялся</name>
+            <title>Переход в раздел "Телефоны" состоялся</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584822723205' status='passed' stop='1584822723205'>
+                    <name>Нажать на ссылку "Телефоны"</name>
+                    <title>Нажать на ссылку "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ecc014b6-25f4-466e-a2f9-25ffddebd3ba-attachment.png' type='image/png' size='34559'/>
+            </attachments>
+            <failure>
+                <message>element ("div[class*='SmoothContentSwitcher_container']") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("div[class*='SmoothContentSwitcher_container']") still not displayed after 10000ms
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at Element.runCommandWithHooks (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Element.waitForDisplayed (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:15:15)
+                    at Element.wrapCommandFn (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.waitForDisplayed (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at MainPage.toPhones (C:\Users\lutak\Desktop\beeintern\lect\5\hw\pages\/main.page.js:15:37)
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:32:31)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1584822740621' status='broken' stop='1584822741018'>
+            <name>Применен фильтр по ценам</name>
+            <title>Применен фильтр по ценам</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584822740622' status='passed' stop='1584822740622'>
+                    <name>Получить плейсхолдер цены "до"</name>
+                    <title>Получить плейсхолдер цены "до"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='234603e2-2b4f-4f1d-8957-0b9f868d00db-attachment.png' type='image/png' size='34559'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'getPriceUntilPH' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getPriceUntilPH' of undefined
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:40:30)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1584822741018' status='broken' stop='1584822741462'>
+            <name>Фильтр по ценам работает корректно</name>
+            <title>Фильтр по ценам работает корректно</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584822741019' status='passed' stop='1584822741019'>
+                    <name>Получить цены отображенных товаров</name>
+                    <title>Получить цены отображенных товаров</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9a96574b-3032-4b26-a73f-1f020e28114a-attachment.png' type='image/png' size='34559'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'getPrices' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getPrices' of undefined
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:51:39)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

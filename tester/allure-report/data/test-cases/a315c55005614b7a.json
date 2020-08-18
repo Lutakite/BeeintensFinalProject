@@ -1,0 +1,234 @@
+{
+  "uid" : "a315c55005614b7a",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "fullName" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ.Переход в раздел \"Телефоны\" состоялся",
+  "historyId" : "53c40262db95c386c7f06b75dae06978",
+  "time" : {
+    "start" : 1597418348920,
+    "stop" : 1597418352284,
+    "duration" : 3364
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на ссылку \"Телефоны\"",
+      "time" : {
+        "start" : 1597418348922,
+        "stop" : 1597418348922,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что URL изменился на верный",
+      "time" : {
+        "start" : 1597418352237,
+        "stop" : 1597418352237,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Переход в раздел \"Телефоны\" состоялся"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b140d1323b7e8bdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415984294,
+        "stop" : 1597415986363,
+        "duration" : 2069
+      }
+    }, {
+      "uid" : "ae5dba0093abb7e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415936160,
+        "stop" : 1597415938424,
+        "duration" : 2264
+      }
+    }, {
+      "uid" : "c4add3d2d5a03cce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415721599,
+        "stop" : 1597415725233,
+        "duration" : 3634
+      }
+    }, {
+      "uid" : "af63f0ccfb6cb02d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880722100,
+        "stop" : 1584880724056,
+        "duration" : 1956
+      }
+    }, {
+      "uid" : "7ca5ada0b7bd26d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877240952,
+        "stop" : 1584877243048,
+        "duration" : 2096
+      }
+    }, {
+      "uid" : "4d05230035a19042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877157230,
+        "stop" : 1584877160224,
+        "duration" : 2994
+      }
+    }, {
+      "uid" : "8212a6fb20d9b4f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877083737,
+        "stop" : 1584877085530,
+        "duration" : 1793
+      }
+    }, {
+      "uid" : "8d476abdd52c5061",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877044647,
+        "stop" : 1584877047516,
+        "duration" : 2869
+      }
+    }, {
+      "uid" : "3b7c7d5ce9fbdd25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876968489,
+        "stop" : 1584876970190,
+        "duration" : 1701
+      }
+    }, {
+      "uid" : "a6a5e3b9d76e4a53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876899569,
+        "stop" : 1584876902904,
+        "duration" : 3335
+      }
+    }, {
+      "uid" : "ffa3a0d953d213a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876686716,
+        "stop" : 1584876689677,
+        "duration" : 2961
+      }
+    }, {
+      "uid" : "4dccfa3f6c24c647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876340015,
+        "stop" : 1584876341667,
+        "duration" : 1652
+      }
+    }, {
+      "uid" : "3cf7e2b652e037c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876211844,
+        "stop" : 1584876215249,
+        "duration" : 3405
+      }
+    }, {
+      "uid" : "408ff6d9a386e6d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876172832,
+        "stop" : 1584876174973,
+        "duration" : 2141
+      }
+    }, {
+      "uid" : "22ed1109bc12cfc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876122885,
+        "stop" : 1584876126102,
+        "duration" : 3217
+      }
+    }, {
+      "uid" : "a4081d94b0ecf5c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828677120,
+        "stop" : 1584828680616,
+        "duration" : 3496
+      }
+    }, {
+      "uid" : "8e15d089d35be17d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828544364,
+        "stop" : 1584828547169,
+        "duration" : 2805
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a315c55005614b7a.json",
+  "parameterValues" : [ "chrome" ]
+}

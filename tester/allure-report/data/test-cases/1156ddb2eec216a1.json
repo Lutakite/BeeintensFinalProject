@@ -1,0 +1,100 @@
+{
+  "uid" : "1156ddb2eec216a1",
+  "name" : "В корзине находится только один товар, название совпадает с названием из каталога",
+  "fullName" : "Добавление товаров в корзину.В корзине находится только один товар, название совпадает с названием из каталога",
+  "historyId" : "e4778a918ef35a8dae111f1e35a7c51c",
+  "time" : {
+    "start" : 1584820998670,
+    "stop" : 1584820998725,
+    "duration" : 55
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверить, что в списке только один товар, и именно тот товар, который добавляли",
+      "time" : {
+        "start" : 1584820998671,
+        "stop" : 1584820998671,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testClass",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testMethod",
+    "value" : "В корзине находится только один товар, название совпадает с названием из каталога"
+  }, {
+    "name" : "package",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "92f125a7dd66eae1",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'orderProducts' of undefined",
+      "time" : {
+        "start" : 1584798851219,
+        "stop" : 1584798851878,
+        "duration" : 659
+      }
+    }, {
+      "uid" : "3974514ef6a985e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584798746104,
+        "stop" : 1584798746164,
+        "duration" : 60
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1156ddb2eec216a1.json",
+  "parameterValues" : [ "chrome" ]
+}

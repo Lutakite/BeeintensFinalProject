@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584798716923' stop='1584798746165'>
+    <name>Добавление товаров в корзину</name>
+    <title>Добавление товаров в корзину</title>
+    <test-cases>
+        <test-case start='1584798716923' status='passed' stop='1584798732742'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584798732742' status='passed' stop='1584798737257'>
+            <name>Переход в раздел "Телефоны" состоялся</name>
+            <title>Переход в раздел "Телефоны" состоялся</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584798732744' status='passed' stop='1584798732744'>
+                    <name>Нажать на ссылку "Телефоны"</name>
+                    <title>Нажать на ссылку "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584798737022' status='passed' stop='1584798737022'>
+                    <name>Проверить, что URL изменился на верный</name>
+                    <title>Проверить, что URL изменился на верный</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584798737257' status='passed' stop='1584798741684'>
+            <name>Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia</name>
+            <title>Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584798737258' status='passed' stop='1584798737258'>
+                    <name>Нажать на "Показать все" в блоке производителей</name>
+                    <title>Нажать на "Показать все" в блоке производителей</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584798737586' status='passed' stop='1584798737586'>
+                    <name>Выбрать Nokia в фильтре</name>
+                    <title>Выбрать Nokia в фильтре</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584798740836' status='passed' stop='1584798740836'>
+                    <name>Проверить, что все смартфоны из списка – Nokia</name>
+                    <title>Проверить, что все смартфоны из списка – Nokia</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584798741684' status='passed' stop='1584798746103'>
+            <name>Клик на кнопку "Купить" из середины списка приводит к переходу в корзину</name>
+            <title>Клик на кнопку "Купить" из середины списка приводит к переходу в корзину</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584798741684' status='passed' stop='1584798741684'>
+                    <name>Нажать на кнопку "Купить" смартфона из середины списка</name>
+                    <title>Нажать на кнопку "Купить" смартфона из середины списка</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584798746092' status='passed' stop='1584798746092'>
+                    <name>Проверить, что URL изменился на URL страницы корзины</name>
+                    <title>Проверить, что URL изменился на URL страницы корзины</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584798746104' status='passed' stop='1584798746164'>
+            <name>В корзине находится только один товар, название совпадает с названием из каталога</name>
+            <title>В корзине находится только один товар, название совпадает с названием из каталога</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584798746104' status='passed' stop='1584798746104'>
+                    <name>Проверить, что в списке только один товар, и именно тот товар, который добавляли</name>
+                    <title>Проверить, что в списке только один товар, и именно тот товар, который добавляли</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

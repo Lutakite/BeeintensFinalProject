@@ -1,0 +1,98 @@
+{
+  "uid" : "a64a242b639731e9",
+  "name" : "Применен фильтр по ценам",
+  "fullName" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ.Применен фильтр по ценам",
+  "historyId" : "8a75460c9ceed5e1069ed83c31495241",
+  "time" : {
+    "start" : 1584828687051,
+    "stop" : 1584828689272,
+    "duration" : 2221
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить плейсхолдер цены \"до\"",
+      "time" : {
+        "start" : 1584828687052,
+        "stop" : 1584828687052,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввести значение цены \"от\"",
+      "time" : {
+        "start" : 1584828687140,
+        "stop" : 1584828687140,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Применен фильтр по ценам"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a64a242b639731e9.json",
+  "parameterValues" : [ "chrome" ]
+}

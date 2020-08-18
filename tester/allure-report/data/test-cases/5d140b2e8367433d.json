@@ -1,0 +1,76 @@
+{
+  "uid" : "5d140b2e8367433d",
+  "name" : "Нажатие на крестик удаляет из корзины",
+  "fullName" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ.Нажатие на крестик удаляет из корзины",
+  "historyId" : "e5624c8a1a819f45b08b9edc50a325e0",
+  "time" : {
+    "start" : 1584878156565,
+    "stop" : 1584878157129,
+    "duration" : 564
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'deleteFromCart' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'deleteFromCart' of undefined\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:134:18)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'deleteFromCart' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'deleteFromCart' of undefined\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:134:18)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dcc6ab5d6c7a91a9",
+      "name" : "Screenshot",
+      "source" : "dcc6ab5d6c7a91a9.png",
+      "type" : "image/png",
+      "size" : 206358
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Нажатие на крестик удаляет из корзины"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d140b2e8367433d.json",
+  "parameterValues" : [ "chrome" ]
+}

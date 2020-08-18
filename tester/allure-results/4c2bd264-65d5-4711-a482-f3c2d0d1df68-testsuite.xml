@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584799837106' stop='1584799851356'>
+    <name>Test Beeline Shop</name>
+    <title>Test Beeline Shop</title>
+    <test-cases>
+        <test-case start='1584799837106' status='passed' stop='1584799844550'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584799844550' status='broken' stop='1584799848349'>
+            <name>Переход в раздел "Телефоны" состоялся</name>
+            <title>Переход в раздел "Телефоны" состоялся</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584799844552' status='passed' stop='1584799844552'>
+                    <name>Нажать на ссылку "Телефоны"</name>
+                    <title>Нажать на ссылку "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584799847750' status='passed' stop='1584799847750'>
+                    <name>Проверить, что URL изменился на верный</name>
+                    <title>Проверить, что URL изменился на верный</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c4d1e301-aac7-477e-b0e2-2a764e8f0c87-attachment.png' type='image/png' size='206358'/>
+            </attachments>
+            <failure>
+                <message>assert is not defined</message>
+                <stack-trace>ReferenceError: assert is not defined
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:32:9)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1584799848350' status='passed' stop='1584799851355'>
+            <name>1 Show all Apple phones</name>
+            <title>1 Show all Apple phones</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584799848353' status='passed' stop='1584799848353'>
+                    <name>Пользователь разворачивает всех производителей телефонов</name>
+                    <title>Пользователь разворачивает всех производителей телефонов</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584799848870' status='passed' stop='1584799848870'>
+                    <name>Пользователь выбирает производителя Apple</name>
+                    <title>Пользователь выбирает производителя Apple</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584799851332' status='passed' stop='1584799851332'>
+                    <name>Пользователь проверяют, что отображены телефоны Apple</name>
+                    <title>Пользователь проверяют, что отображены телефоны Apple</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,120 @@
+{
+  "uid" : "73f52978a16e5a10",
+  "name" : "2 Buy cheap phone",
+  "fullName" : "Test Beeline Shop.2 Buy cheap phone",
+  "historyId" : "dcf3c148d6313f0ec686cebe5eaefbfe",
+  "time" : {
+    "start" : 1584799320759,
+    "stop" : 1584799321426,
+    "duration" : 667
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expect is not defined",
+  "statusTrace" : "ReferenceError: expect is not defined\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:57:9)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "expect is not defined",
+    "statusTrace" : "ReferenceError: expect is not defined\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:57:9)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Пользователь открывает главную страницу магазина",
+      "time" : {
+        "start" : 1584799320760,
+        "stop" : 1584799320760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Пользователь проверяет, что главная страница магазина открыта успешно",
+      "time" : {
+        "start" : 1584799320843,
+        "stop" : 1584799320843,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d7801cc1774ccf52",
+      "name" : "Screenshot",
+      "source" : "d7801cc1774ccf52.png",
+      "type" : "image/png",
+      "size" : 487068
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "2 Buy cheap phone"
+  }, {
+    "name" : "package",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ac6370a937303380",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1584471391971,
+        "stop" : 0,
+        "duration" : -1584471391971
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "73f52978a16e5a10.json",
+  "parameterValues" : [ "chrome" ]
+}

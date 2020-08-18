@@ -1,0 +1,91 @@
+{
+  "uid" : "ade6aaf1d570939c",
+  "name" : "Фильтр по ценам работает корректно",
+  "fullName" : "Test Beeline Shop.Фильтр по ценам работает корректно",
+  "historyId" : "1aa4e10448b9f1e264c600ddaac961ea",
+  "time" : {
+    "start" : 1584824952300,
+    "stop" : 1584824952991,
+    "duration" : 691
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)",
+  "statusTrace" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Browser.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at $ (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\runner\\build\\index.js:192:36)\n                    at PhonesPage.getPrices (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:69:21)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:51:39)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)",
+    "statusTrace" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Browser.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at $ (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\runner\\build\\index.js:192:36)\n                    at PhonesPage.getPrices (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:69:21)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:51:39)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Получить цены отображенных товаров",
+      "time" : {
+        "start" : 1584824952300,
+        "stop" : 1584824952300,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7bff7ad9e627b11c",
+      "name" : "Screenshot",
+      "source" : "7bff7ad9e627b11c.png",
+      "type" : "image/png",
+      "size" : 213832
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Фильтр по ценам работает корректно"
+  }, {
+    "name" : "package",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ade6aaf1d570939c.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,301 @@
+[ {
+  "uid" : "44901d00086f16ec",
+  "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+  "time" : {
+    "start" : 1584878312651,
+    "stop" : 1584878314780,
+    "duration" : 2129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13ab163a8f80217d",
+  "name" : "Фильтр по ценам работает корректно",
+  "time" : {
+    "start" : 1584828320220,
+    "stop" : 1584828320307,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63b3e707f9be594",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "time" : {
+    "start" : 1597418360926,
+    "stop" : 1597418362544,
+    "duration" : 1618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d0cd4909c69f4b9",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "time" : {
+    "start" : 1597418356286,
+    "stop" : 1597418358053,
+    "duration" : 1767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66e6189799eb3519",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1584828310276,
+    "stop" : 1584828316334,
+    "duration" : 6058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68e01e41cc1b5d27",
+  "name" : "Нажатие на крестик удаляет из корзины",
+  "time" : {
+    "start" : 1597418366840,
+    "stop" : 1597418367230,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8287e785613b0632",
+  "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "time" : {
+    "start" : 1584820995956,
+    "stop" : 1584820998670,
+    "duration" : 2714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "594bddef8a72abd4",
+  "name" : "1 Show all Apple phones",
+  "time" : {
+    "start" : 1584800129438,
+    "stop" : 1584800132834,
+    "duration" : 3396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73f52978a16e5a10",
+  "name" : "2 Buy cheap phone",
+  "time" : {
+    "start" : 1584799320759,
+    "stop" : 1584799321426,
+    "duration" : 667
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ba986f8c8adbffa2",
+  "name" : "Нажатие на \"Восстановить\" возвращает товар",
+  "time" : {
+    "start" : 1597418367231,
+    "stop" : 1597418368039,
+    "duration" : 808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "119e901fedbac1e",
+  "name" : "Список товаров обновился по фильтру цен",
+  "time" : {
+    "start" : 1584802472396,
+    "stop" : 1584802483253,
+    "duration" : 10857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea626d648c2e029",
+  "name" : "\"before each\" hook",
+  "time" : {
+    "start" : 1584471391971,
+    "stop" : 1584471399486,
+    "duration" : 7515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d115866452651fc",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1597418354851,
+    "stop" : 1597418356286,
+    "duration" : 1435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a64a242b639731e9",
+  "name" : "Применен фильтр по ценам",
+  "time" : {
+    "start" : 1584828687051,
+    "stop" : 1584828689272,
+    "duration" : 2221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b9e7b68f7914fe",
+  "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+  "time" : {
+    "start" : 1584820991707,
+    "stop" : 1584820995956,
+    "duration" : 4249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89692929ab8aab8",
+  "name" : "Применена сортировка по ценам",
+  "time" : {
+    "start" : 1597418358053,
+    "stop" : 1597418359431,
+    "duration" : 1378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23f530f5d3a9a7f3",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "time" : {
+    "start" : 1584828316335,
+    "stop" : 1584828318147,
+    "duration" : 1812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa31a724ec6e0405",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1584820982469,
+    "stop" : 1584820988339,
+    "duration" : 5870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24b27cf949d7c4f5",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1597418359991,
+    "stop" : 1597418360926,
+    "duration" : 935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b574710ee268f64",
+  "name" : "Фильтр по ценам работает корректно",
+  "time" : {
+    "start" : 1584828689272,
+    "stop" : 1584828689375,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f379fa4fef3a2a85",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "time" : {
+    "start" : 1584820988339,
+    "stop" : 1584820991706,
+    "duration" : 3367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5731a9ea59599e1",
+  "name" : "Фильтр по ценам работает корректно",
+  "time" : {
+    "start" : 1597418354532,
+    "stop" : 1597418354745,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a315c55005614b7a",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "time" : {
+    "start" : 1597418348920,
+    "stop" : 1597418352284,
+    "duration" : 3364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3a56f69e2126130",
+  "name" : "Применен фильтр по ценам",
+  "time" : {
+    "start" : 1584828318148,
+    "stop" : 1584828320219,
+    "duration" : 2071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1156ddb2eec216a1",
+  "name" : "В корзине находится только один товар, название совпадает с названием из каталога",
+  "time" : {
+    "start" : 1584820998670,
+    "stop" : 1584820998725,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bd33685d71acc7c",
+  "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+  "time" : {
+    "start" : 1584821580077,
+    "stop" : 1584821590831,
+    "duration" : 10754
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "52c0ba4b0e494537",
+  "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "time" : {
+    "start" : 1597418362545,
+    "stop" : 1597418366840,
+    "duration" : 4295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c9d372b347f7b7d",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1597418339917,
+    "stop" : 1597418348920,
+    "duration" : 9003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb2559cefbde18e3",
+  "name" : "Применен фильтр по ценам",
+  "time" : {
+    "start" : 1597418352285,
+    "stop" : 1597418354532,
+    "duration" : 2247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f875cc0570fad478",
+  "name" : "Сортировка по ценам работает корректно",
+  "time" : {
+    "start" : 1597418359431,
+    "stop" : 1597418359955,
+    "duration" : 524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

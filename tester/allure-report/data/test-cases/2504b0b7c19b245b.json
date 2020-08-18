@@ -1,0 +1,96 @@
+{
+  "uid" : "2504b0b7c19b245b",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "fullName" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ.Переход в раздел \"Телефоны\" состоялся",
+  "historyId" : "b96902838fe0086723d099a90c19e12c",
+  "time" : {
+    "start" : 1584876694328,
+    "stop" : 1584876696035,
+    "duration" : 1707
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на ссылку \"Телефоны\"",
+      "time" : {
+        "start" : 1584876694329,
+        "stop" : 1584876694329,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что URL изменился на верный",
+      "time" : {
+        "start" : 1584876696027,
+        "stop" : 1584876696027,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Переход в раздел \"Телефоны\" состоялся"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2504b0b7c19b245b.json",
+  "parameterValues" : [ "chrome" ]
+}

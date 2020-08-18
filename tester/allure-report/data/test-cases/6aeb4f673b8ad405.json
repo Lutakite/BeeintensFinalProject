@@ -1,0 +1,91 @@
+{
+  "uid" : "6aeb4f673b8ad405",
+  "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "fullName" : "Добавление товаров в корзину.Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "historyId" : "3e4a1a07a3b32f7ebda748db9960b3ce",
+  "time" : {
+    "start" : 1584798839712,
+    "stop" : 1584798851219,
+    "duration" : 11507
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//div[contains(@class,'shop-order-summary-liner')]//button[text()='Оформить заказ']\") still not existing after 10000ms",
+  "statusTrace" : "Error: element (\"//div[contains(@class,'shop-order-summary-liner')]//button[text()='Оформить заказ']\") still not existing after 10000ms\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:30:15\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Element.waitForExist (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\commands\\element\\waitForExist.js:15:15)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:21:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.waitForEnabled (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\commands\\element\\waitForEnabled.js:10:16)\n                    at Element.waitForEnabled (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at PhonesPage.buySmartphone (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:40:31)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\test\\/addToCart2.js:46:31)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//div[contains(@class,'shop-order-summary-liner')]//button[text()='Оформить заказ']\") still not existing after 10000ms",
+    "statusTrace" : "Error: element (\"//div[contains(@class,'shop-order-summary-liner')]//button[text()='Оформить заказ']\") still not existing after 10000ms\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:30:15\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Element.waitForExist (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\commands\\element\\waitForExist.js:15:15)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:21:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.waitForEnabled (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\commands\\element\\waitForEnabled.js:10:16)\n                    at Element.waitForEnabled (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at PhonesPage.buySmartphone (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:40:31)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\test\\/addToCart2.js:46:31)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Нажать на кнопку \"Купить\" смартфона из середины списка",
+      "time" : {
+        "start" : 1584798839712,
+        "stop" : 1584798839712,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "585ccb34d1341b11",
+      "name" : "Screenshot",
+      "source" : "585ccb34d1341b11.png",
+      "type" : "image/png",
+      "size" : 470847
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testClass",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testMethod",
+    "value" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину"
+  }, {
+    "name" : "package",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6aeb4f673b8ad405.json",
+  "parameterValues" : [ "chrome" ]
+}

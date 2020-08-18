@@ -1,0 +1,91 @@
+{
+  "uid" : "92f125a7dd66eae1",
+  "name" : "В корзине находится только один товар, название совпадает с названием из каталога",
+  "fullName" : "Добавление товаров в корзину.В корзине находится только один товар, название совпадает с названием из каталога",
+  "historyId" : "e4778a918ef35a8dae111f1e35a7c51c",
+  "time" : {
+    "start" : 1584798851219,
+    "stop" : 1584798851878,
+    "duration" : 659
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'orderProducts' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'orderProducts' of undefined\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\test\\/addToCart2.js:54:35)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'orderProducts' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'orderProducts' of undefined\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\test\\/addToCart2.js:54:35)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Проверить, что в списке только один товар, и именно тот товар, который добавляли",
+      "time" : {
+        "start" : 1584798851220,
+        "stop" : 1584798851220,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "585835830b67010a",
+      "name" : "Screenshot",
+      "source" : "585835830b67010a.png",
+      "type" : "image/png",
+      "size" : 470847
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testClass",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testMethod",
+    "value" : "В корзине находится только один товар, название совпадает с названием из каталога"
+  }, {
+    "name" : "package",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92f125a7dd66eae1.json",
+  "parameterValues" : [ "chrome" ]
+}

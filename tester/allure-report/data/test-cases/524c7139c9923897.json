@@ -1,0 +1,91 @@
+{
+  "uid" : "524c7139c9923897",
+  "name" : "Сортировка по ценам работает корректно",
+  "fullName" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ.Сортировка по ценам работает корректно",
+  "historyId" : "7e799ae30a0cfeef13c7b204d93362a4",
+  "time" : {
+    "start" : 1584876698584,
+    "stop" : 1584876699226,
+    "duration" : 642
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:\n                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n                  (Session info: chrome=80.0.3987.149)",
+  "statusTrace" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:\n                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n                  (Session info: chrome=80.0.3987.149)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Browser.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at $$ (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\runner\\build\\index.js:194:37)\n                    at PhonesPage.prices (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:16:27)\n                    at PhonesPage.getPrices (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:71:21)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:89:39)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:\n                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n                  (Session info: chrome=80.0.3987.149)",
+    "statusTrace" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:\n                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n                  (Session info: chrome=80.0.3987.149)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Browser.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at $$ (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\runner\\build\\index.js:194:37)\n                    at PhonesPage.prices (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:16:27)\n                    at PhonesPage.getPrices (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:71:21)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:89:39)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Получить цены отображенных товаров",
+      "time" : {
+        "start" : 1584876698584,
+        "stop" : 1584876698584,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d34952ef9d262cb6",
+      "name" : "Screenshot",
+      "source" : "d34952ef9d262cb6.png",
+      "type" : "image/png",
+      "size" : 355832
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Сортировка по ценам работает корректно"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "524c7139c9923897.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,395 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "\"before each\" hook",
+    "uid" : "ea626d648c2e029",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584471391971,
+      "stop" : 1584471399486,
+      "duration" : 7515
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "2 Buy cheap phone",
+    "uid" : "73f52978a16e5a10",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1584799320759,
+      "stop" : 1584799321426,
+      "duration" : 667
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "1 Show all Apple phones",
+    "uid" : "594bddef8a72abd4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584800129438,
+      "stop" : 1584800132834,
+      "duration" : 3396
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Список товаров обновился по фильтру цен",
+    "uid" : "119e901fedbac1e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584802472396,
+      "stop" : 1584802483253,
+      "duration" : 10857
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "\"before all\" hook",
+    "uid" : "fa31a724ec6e0405",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584820982469,
+      "stop" : 1584820988339,
+      "duration" : 5870
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Переход в раздел \"Телефоны\" состоялся",
+    "uid" : "f379fa4fef3a2a85",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584820988339,
+      "stop" : 1584820991706,
+      "duration" : 3367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+    "uid" : "6b9e7b68f7914fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584820991707,
+      "stop" : 1584820995956,
+      "duration" : 4249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+    "uid" : "8287e785613b0632",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584820995956,
+      "stop" : 1584820998670,
+      "duration" : 2714
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "В корзине находится только один товар, название совпадает с названием из каталога",
+    "uid" : "1156ddb2eec216a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584820998670,
+      "stop" : 1584820998725,
+      "duration" : 55
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+    "uid" : "7bd33685d71acc7c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1584821580077,
+      "stop" : 1584821590831,
+      "duration" : 10754
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "\"before all\" hook",
+    "uid" : "66e6189799eb3519",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584828310276,
+      "stop" : 1584828316334,
+      "duration" : 6058
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Переход в раздел \"Телефоны\" состоялся",
+    "uid" : "23f530f5d3a9a7f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584828316335,
+      "stop" : 1584828318147,
+      "duration" : 1812
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Применен фильтр по ценам",
+    "uid" : "f3a56f69e2126130",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584828318148,
+      "stop" : 1584828320219,
+      "duration" : 2071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Фильтр по ценам работает корректно",
+    "uid" : "13ab163a8f80217d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584828320220,
+      "stop" : 1584828320307,
+      "duration" : 87
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Применен фильтр по ценам",
+    "uid" : "a64a242b639731e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584828687051,
+      "stop" : 1584828689272,
+      "duration" : 2221
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Фильтр по ценам работает корректно",
+    "uid" : "4b574710ee268f64",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584828689272,
+      "stop" : 1584828689375,
+      "duration" : 103
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+    "uid" : "44901d00086f16ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584878312651,
+      "stop" : 1584878314780,
+      "duration" : 2129
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "\"before all\" hook",
+    "uid" : "1c9d372b347f7b7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418339917,
+      "stop" : 1597418348920,
+      "duration" : 9003
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Переход в раздел \"Телефоны\" состоялся",
+    "uid" : "a315c55005614b7a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418348920,
+      "stop" : 1597418352284,
+      "duration" : 3364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Применен фильтр по ценам",
+    "uid" : "bb2559cefbde18e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418352285,
+      "stop" : 1597418354532,
+      "duration" : 2247
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Фильтр по ценам работает корректно",
+    "uid" : "c5731a9ea59599e1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418354532,
+      "stop" : 1597418354745,
+      "duration" : 213
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "\"before all\" hook",
+    "uid" : "1d115866452651fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418354851,
+      "stop" : 1597418356286,
+      "duration" : 1435
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Переход в раздел \"Телефоны\" состоялся",
+    "uid" : "1d0cd4909c69f4b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418356286,
+      "stop" : 1597418358053,
+      "duration" : 1767
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Применена сортировка по ценам",
+    "uid" : "89692929ab8aab8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418358053,
+      "stop" : 1597418359431,
+      "duration" : 1378
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Сортировка по ценам работает корректно",
+    "uid" : "f875cc0570fad478",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418359431,
+      "stop" : 1597418359955,
+      "duration" : 524
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "\"before all\" hook",
+    "uid" : "24b27cf949d7c4f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418359991,
+      "stop" : 1597418360926,
+      "duration" : 935
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Переход в раздел \"Телефоны\" состоялся",
+    "uid" : "f63b3e707f9be594",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418360926,
+      "stop" : 1597418362544,
+      "duration" : 1618
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+    "uid" : "52c0ba4b0e494537",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418362545,
+      "stop" : 1597418366840,
+      "duration" : 4295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Нажатие на крестик удаляет из корзины",
+    "uid" : "68e01e41cc1b5d27",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418366840,
+      "stop" : 1597418367230,
+      "duration" : 390
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Нажатие на \"Восстановить\" возвращает товар",
+    "uid" : "ba986f8c8adbffa2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597418367231,
+      "stop" : 1597418368039,
+      "duration" : 808
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

@@ -1,0 +1,141 @@
+{
+  "uid" : "3008ebda4fedeb68",
+  "name" : "Фильтр по ценам работает корректно",
+  "fullName" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ.Фильтр по ценам работает корректно",
+  "historyId" : "d77d000bce64224e6214b710198cae17",
+  "time" : {
+    "start" : 1597415728230,
+    "stop" : 1597415728537,
+    "duration" : 307
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить цены отображенных товаров",
+      "time" : {
+        "start" : 1597415728230,
+        "stop" : 1597415728230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597415728515,
+        "stop" : 1597415728515,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597415728537,
+        "stop" : 1597415728537,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597415728537,
+        "stop" : 1597415728537,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597415728537,
+        "stop" : 1597415728537,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Фильтр по ценам работает корректно"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3008ebda4fedeb68.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,115 @@
+{
+  "uid" : "8287e785613b0632",
+  "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "fullName" : "Добавление товаров в корзину.Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "historyId" : "3e4a1a07a3b32f7ebda748db9960b3ce",
+  "time" : {
+    "start" : 1584820995956,
+    "stop" : 1584820998670,
+    "duration" : 2714
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на кнопку \"Купить\" смартфона из середины списка",
+      "time" : {
+        "start" : 1584820995956,
+        "stop" : 1584820995956,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что URL изменился на URL страницы корзины",
+      "time" : {
+        "start" : 1584820998664,
+        "stop" : 1584820998664,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testClass",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testMethod",
+    "value" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину"
+  }, {
+    "name" : "package",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6aeb4f673b8ad405",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[contains(@class,'shop-order-summary-liner')]//button[text()='Оформить заказ']\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1584798839712,
+        "stop" : 1584798851219,
+        "duration" : 11507
+      }
+    }, {
+      "uid" : "af55909cde04fcc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584798741684,
+        "stop" : 1584798746103,
+        "duration" : 4419
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8287e785613b0632.json",
+  "parameterValues" : [ "chrome" ]
+}

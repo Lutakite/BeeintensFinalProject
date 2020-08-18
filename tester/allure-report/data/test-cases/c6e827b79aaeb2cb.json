@@ -1,0 +1,96 @@
+{
+  "uid" : "c6e827b79aaeb2cb",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "fullName" : "Test Beeline Shop.Переход в раздел \"Телефоны\" состоялся",
+  "historyId" : "a8d46f95c369782ea4f92c46758ac02",
+  "time" : {
+    "start" : 1584823148335,
+    "stop" : 1584823151171,
+    "duration" : 2836
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на ссылку \"Телефоны\"",
+      "time" : {
+        "start" : 1584823148336,
+        "stop" : 1584823148336,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что URL изменился на верный",
+      "time" : {
+        "start" : 1584823150704,
+        "stop" : 1584823150705,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Переход в раздел \"Телефоны\" состоялся"
+  }, {
+    "name" : "package",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6e827b79aaeb2cb.json",
+  "parameterValues" : [ "chrome" ]
+}

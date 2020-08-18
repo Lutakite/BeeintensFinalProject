@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584876680600' stop='1584876692928'>
+    <name>HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ</name>
+    <title>HW5_Task1_Dmitrieva ФИЛЬТРАЦИЯ ПО ЦЕНЕ</title>
+    <test-cases>
+        <test-case start='1584876680601' status='passed' stop='1584876686715'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584876686716' status='passed' stop='1584876689677'>
+            <name>Переход в раздел "Телефоны" состоялся</name>
+            <title>Переход в раздел "Телефоны" состоялся</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584876686717' status='passed' stop='1584876686717'>
+                    <name>Нажать на ссылку "Телефоны"</name>
+                    <title>Нажать на ссылку "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584876689551' status='passed' stop='1584876689551'>
+                    <name>Проверить, что URL изменился на верный</name>
+                    <title>Проверить, что URL изменился на верный</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584876689678' status='passed' stop='1584876692272'>
+            <name>Применен фильтр по ценам</name>
+            <title>Применен фильтр по ценам</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584876689678' status='passed' stop='1584876689678'>
+                    <name>Получить плейсхолдер цены "до"</name>
+                    <title>Получить плейсхолдер цены "до"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584876689738' status='passed' stop='1584876689738'>
+                    <name>Ввести значение цены "от"</name>
+                    <title>Ввести значение цены "от"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584876692272' status='broken' stop='1584876692927'>
+            <name>Фильтр по ценам работает корректно</name>
+            <title>Фильтр по ценам работает корректно</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584876692273' status='passed' stop='1584876692273'>
+                    <name>Получить цены отображенных товаров</name>
+                    <title>Получить цены отображенных товаров</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8f774a60-904a-4e31-a6f2-df6b98993611-attachment.png' type='image/png' size='205381'/>
+            </attachments>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:
+                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.
+                  (Session info: chrome=80.0.3987.149)</message>
+                <stack-trace>invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:
+                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.
+                  (Session info: chrome=80.0.3987.149)
+                    at getErrorFromResponseBody (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriver\build\utils.js:124:10)
+                    at Request._callback (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\request\request.js:185:22)
+                    at Request.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\request\request.js:1154:10)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\request\request.js:1076:12)
+                    at Browser.runCommandWithHooks (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at $$ (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\runner\build\index.js:194:37)
+                    at PhonesPage.prices (C:\Users\lutak\Desktop\beeintern\lect\5\hw\pages\/phones.page.js:16:27)
+                    at PhonesPage.getPrices (C:\Users\lutak\Desktop\beeintern\lect\5\hw\pages\/phones.page.js:71:21)
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:49:39)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

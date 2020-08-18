@@ -6,3 +6,11 @@
 .vscode
 .idea
 .DS_Store
+/tester/node_modules
+/tester/build
+/tester/coverage
+/tester/.eslintcache
+/tester/.stylelintcache
+/tester/.vscode
+/tester/.idea
+/tester/.DS_Store

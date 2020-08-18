@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584799313576' stop='1584799321427'>
+    <name>Test Beeline Shop</name>
+    <title>Test Beeline Shop</title>
+    <test-cases>
+        <test-case start='1584799313577' status='passed' stop='1584799319783'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584799319784' status='broken' stop='1584799320758'>
+            <name>1 Show all Apple phones</name>
+            <title>1 Show all Apple phones</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps>
+                <step start='1584799319784' status='passed' stop='1584799319784'>
+                    <name>Пользователь открывает главную страницу магазина</name>
+                    <title>Пользователь открывает главную страницу магазина</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584799320010' status='passed' stop='1584799320010'>
+                    <name>Пользователь проверяет, что главная страница магазина открыта успешно</name>
+                    <title>Пользователь проверяет, что главная страница магазина открыта успешно</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5de2fc8d-8273-4611-a954-3d38cb975b9c-attachment.png' type='image/png' size='491413'/>
+            </attachments>
+            <failure>
+                <message>expect is not defined</message>
+                <stack-trace>ReferenceError: expect is not defined
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:32:9)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1584799320759' status='broken' stop='1584799321426'>
+            <name>2 Buy cheap phone</name>
+            <title>2 Buy cheap phone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps>
+                <step start='1584799320760' status='passed' stop='1584799320760'>
+                    <name>Пользователь открывает главную страницу магазина</name>
+                    <title>Пользователь открывает главную страницу магазина</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584799320843' status='passed' stop='1584799320843'>
+                    <name>Пользователь проверяет, что главная страница магазина открыта успешно</name>
+                    <title>Пользователь проверяет, что главная страница магазина открыта успешно</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8a861c69-6b71-47c0-b29b-6ccfb4a26568-attachment.png' type='image/png' size='487068'/>
+            </attachments>
+            <failure>
+                <message>expect is not defined</message>
+                <stack-trace>ReferenceError: expect is not defined
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:57:9)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

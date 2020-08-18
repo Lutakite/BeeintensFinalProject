@@ -1,0 +1,91 @@
+{
+  "uid" : "462bea6a8b1b767b",
+  "name" : "Нажатие на крестик удаляет из корзины",
+  "fullName" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ.Нажатие на крестик удаляет из корзины",
+  "historyId" : "e5624c8a1a819f45b08b9edc50a325e0",
+  "time" : {
+    "start" : 1597416874324,
+    "stop" : 1597416874953,
+    "duration" : 629
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable: element has zero size\n                  (Session info: chrome=84.0.4147.125)",
+  "statusTrace" : "element not interactable: element has zero size\n                  (Session info: chrome=84.0.4147.125)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at CartPage.deleteFromCart (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/cart.page.js:15:34)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:134:18)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable: element has zero size\n                  (Session info: chrome=84.0.4147.125)",
+    "statusTrace" : "element not interactable: element has zero size\n                  (Session info: chrome=84.0.4147.125)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at CartPage.deleteFromCart (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/cart.page.js:15:34)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:134:18)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Нажать на крестик в корзине",
+      "time" : {
+        "start" : 1597416874324,
+        "stop" : 1597416874324,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "583b4005cc35ff0a",
+      "name" : "Screenshot",
+      "source" : "583b4005cc35ff0a.png",
+      "type" : "image/png",
+      "size" : 151506
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Нажатие на крестик удаляет из корзины"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "462bea6a8b1b767b.json",
+  "parameterValues" : [ "chrome" ]
+}

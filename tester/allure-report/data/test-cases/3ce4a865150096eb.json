@@ -1,0 +1,91 @@
+{
+  "uid" : "3ce4a865150096eb",
+  "name" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "fullName" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ.Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину",
+  "historyId" : "b3f10eecc785252d7385e5d7c9d62ca3",
+  "time" : {
+    "start" : 1597416659011,
+    "stop" : 1597416663973,
+    "duration" : 4962
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ'] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ']' is not a valid XPath expression.\n                  (Session info: chrome=84.0.4147.125)",
+  "statusTrace" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ'] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ']' is not a valid XPath expression.\n                  (Session info: chrome=84.0.4147.125)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Browser.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at $ (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\runner\\build\\index.js:192:36)\n                    at CartPage.confirmOrder (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/cart.page.js:5:33)\n                    at PhonesPage.buySmartphone (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:45:18)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:126:31)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ'] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ']' is not a valid XPath expression.\n                  (Session info: chrome=84.0.4147.125)",
+    "statusTrace" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ'] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(@class,'shop-order-summary-liner')]//button[contains(text(),'Оформить заказ']' is not a valid XPath expression.\n                  (Session info: chrome=84.0.4147.125)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Browser.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Browser.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at $ (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\runner\\build\\index.js:192:36)\n                    at CartPage.confirmOrder (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/cart.page.js:5:33)\n                    at PhonesPage.buySmartphone (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/phones.page.js:45:18)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:126:31)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Нажать на кнопку \"Купить\" смартфона из середины списка",
+      "time" : {
+        "start" : 1597416660196,
+        "stop" : 1597416660196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "118a05549cd505bc",
+      "name" : "Screenshot",
+      "source" : "118a05549cd505bc.png",
+      "type" : "image/png",
+      "size" : 151818
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Клик на кнопку \"Купить\" из середины списка приводит к переходу в корзину"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ce4a865150096eb.json",
+  "parameterValues" : [ "chrome" ]
+}

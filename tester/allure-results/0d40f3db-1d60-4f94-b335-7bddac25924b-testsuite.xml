@@ -1,0 +1,252 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597439706005' stop='1597439749517'>
+    <name>Test Beeline Shop</name>
+    <title>Test Beeline Shop</title>
+    <test-cases>
+        <test-case start='1597439706005' status='passed' stop='1597439706417'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439706418' status='undefined'>
+            <name>Перейти на вкладку "Личный кабинет"</name>
+            <title>Перейти на вкладку "Личный кабинет"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439706418' status='passed' stop='1597439709643'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439709643' status='undefined'>
+            <name>Перейти на вкладку "Лекции"</name>
+            <title>Перейти на вкладку "Лекции"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439709643' status='passed' stop='1597439712910'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439712911' status='undefined'>
+            <name>Перейти на вкладку "Преподаватели"</name>
+            <title>Перейти на вкладку "Преподаватели"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439712911' status='passed' stop='1597439716274'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439716274' status='undefined'>
+            <name>Перейти на вкладку "О программе"</name>
+            <title>Перейти на вкладку "О программе"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439716274' status='passed' stop='1597439719478'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439719478' status='undefined'>
+            <name>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</name>
+            <title>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439719478' status='broken' stop='1597439732840'>
+            <name>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</name>
+            <title>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f31883b7-bcc4-4a44-89c0-21f970f1892e-attachment.png' type='image/png' size='135196'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#checkbox__proizvoditel_proizvoditel-alcatel" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#checkbox__proizvoditel_proizvoditel-alcatel" because element wasn't found
+                    at implicitWait (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.click (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\/homeWork3.js:52:59)
+                    at Context.executeSync (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597439732840' status='undefined'>
+            <name>Отсортируем по цене</name>
+            <title>Отсортируем по цене</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439732840' status='broken' stop='1597439746174'>
+            <name>Отсортируем по цене</name>
+            <title>Отсортируем по цене</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d0a021ca-c28f-4d74-b19c-39e111774abe-attachment.png' type='image/png' size='135196'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//div[./span[text()=" Цене"]]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[./span[text()=" Цене"]]" because element wasn't found
+                    at implicitWait (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.click (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\/homeWork3.js:60:46)
+                    at Context.executeSync (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597439746174' status='undefined'>
+            <name>Купим телефон из середины списка</name>
+            <title>Купим телефон из середины списка</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597439746174' status='broken' stop='1597439749516'>
+            <name>Купим телефон из середины списка</name>
+            <title>Купим телефон из середины списка</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e6a3e8c6-2d5e-466b-870a-7994dd9bd0ea-attachment.png' type='image/png' size='135498'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'click' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'click' of undefined
+                    at Context.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\/homeWork3.js:71:31)
+                    at Context.executeSync (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

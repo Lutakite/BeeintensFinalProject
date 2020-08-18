@@ -1,0 +1,656 @@
+{
+  "uid" : "13ab163a8f80217d",
+  "name" : "Фильтр по ценам работает корректно",
+  "fullName" : "Test Beeline Shop.Фильтр по ценам работает корректно",
+  "historyId" : "1aa4e10448b9f1e264c600ddaac961ea",
+  "time" : {
+    "start" : 1584828320220,
+    "stop" : 1584828320307,
+    "duration" : 87
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить цены отображенных товаров",
+      "time" : {
+        "start" : 1584828320220,
+        "stop" : 1584828320220,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1584828320306,
+        "stop" : 1584828320306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1584828320306,
+        "stop" : 1584828320306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1584828320306,
+        "stop" : 1584828320306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Фильтр по ценам работает корректно"
+  }, {
+    "name" : "package",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9f6bf0ba371bc24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828174429,
+        "stop" : 1584828174505,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "f3bca3da5a80125d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828130214,
+        "stop" : 1584828130334,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "4211ca7bea0b11b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828060944,
+        "stop" : 1584828061067,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "c9009e46c076d19f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828011850,
+        "stop" : 1584828011968,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "2266c19b22ac5cdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584827968061,
+        "stop" : 1584827968182,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "339285d04a8fe8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584827788577,
+        "stop" : 1584827788775,
+        "duration" : 198
+      }
+    }, {
+      "uid" : "d1ca7239997b1417",
+      "status" : "broken",
+      "statusDetails" : "prices is not defined",
+      "time" : {
+        "start" : 1584827757580,
+        "stop" : 1584827758067,
+        "duration" : 487
+      }
+    }, {
+      "uid" : "6a5807f6c26b97d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584827618310,
+        "stop" : 1584827618460,
+        "duration" : 150
+      }
+    }, {
+      "uid" : "d156d4ce638334fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584827547605,
+        "stop" : 1584827547810,
+        "duration" : 205
+      }
+    }, {
+      "uid" : "fbc43c7bf3d513f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584827470988,
+        "stop" : 1584827471123,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "21ff7598f2534bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584827425322,
+        "stop" : 1584827425462,
+        "duration" : 140
+      }
+    }, {
+      "uid" : "c863a6ef88872578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584827375990,
+        "stop" : 1584827376191,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "fed0b3ef56dd5f02",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1584827225122,
+        "stop" : 1584827225689,
+        "duration" : 567
+      }
+    }, {
+      "uid" : "8d2aa42a83094ea3",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1584827184889,
+        "stop" : 1584827185454,
+        "duration" : 565
+      }
+    }, {
+      "uid" : "e93c6254ff8462b3",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1584827118894,
+        "stop" : 1584827119494,
+        "duration" : 600
+      }
+    }, {
+      "uid" : "6315b3ba4482cffd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584826764939,
+        "stop" : 1584826765108,
+        "duration" : 169
+      }
+    }, {
+      "uid" : "276c342808f32f4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584826655694,
+        "stop" : 1584826655823,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "70c98fc624c07913",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584826542252,
+        "stop" : 1584826542473,
+        "duration" : 221
+      }
+    }, {
+      "uid" : "23885e61896e1911",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584826437518,
+        "stop" : 1584826437755,
+        "duration" : 237
+      }
+    }, {
+      "uid" : "2d32f8c2840dedf6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getPrices' of undefined",
+      "time" : {
+        "start" : 1584826385873,
+        "stop" : 1584826386390,
+        "duration" : 517
+      }
+    }, {
+      "uid" : "3b3d6a838f2cec05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584826325158,
+        "stop" : 1584826325396,
+        "duration" : 238
+      }
+    }, {
+      "uid" : "9950feaaf9e4162e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584826190299,
+        "stop" : 1584826190383,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "7cf50d5b420b8e3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584826059884,
+        "stop" : 1584826060038,
+        "duration" : 154
+      }
+    }, {
+      "uid" : "91a19c2c869f0bff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584825992770,
+        "stop" : 1584825992911,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "43c1e4726df50ea6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584825928876,
+        "stop" : 1584825929039,
+        "duration" : 163
+      }
+    }, {
+      "uid" : "5e0057ab8eb9b52b",
+      "status" : "broken",
+      "statusDetails" : "i is not defined",
+      "time" : {
+        "start" : 1584825897137,
+        "stop" : 1584825897622,
+        "duration" : 485
+      }
+    }, {
+      "uid" : "ae7071b1138eb521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584825758624,
+        "stop" : 1584825759297,
+        "duration" : 673
+      }
+    }, {
+      "uid" : "c463cfb7993ed6b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584825660242,
+        "stop" : 1584825660548,
+        "duration" : 306
+      }
+    }, {
+      "uid" : "b4e2839abae71cc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584825501350,
+        "stop" : 1584825501452,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "692e9567597cc68e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584825446829,
+        "stop" : 1584825446963,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "53cbf6403f7c539c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584825392197,
+        "stop" : 1584825393434,
+        "duration" : 1237
+      }
+    }, {
+      "uid" : "fcc9ae7696d6c507",
+      "status" : "broken",
+      "statusDetails" : "productLinks is not defined",
+      "time" : {
+        "start" : 1584825318207,
+        "stop" : 1584825318820,
+        "duration" : 613
+      }
+    }, {
+      "uid" : "ade6aaf1d570939c",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584824952300,
+        "stop" : 1584824952991,
+        "duration" : 691
+      }
+    }, {
+      "uid" : "1668c08c95c420b6",
+      "status" : "broken",
+      "statusDetails" : "browser.getValue is not a function",
+      "time" : {
+        "start" : 1584824900123,
+        "stop" : 1584824900621,
+        "duration" : 498
+      }
+    }, {
+      "uid" : "e3d046476fdb57ed",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item') because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')' is not a valid XPath expression.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584824857724,
+        "stop" : 1584824858277,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "55076a778159f67d",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584824817473,
+        "stop" : 1584824818130,
+        "duration" : 657
+      }
+    }, {
+      "uid" : "b6eefb9865346487",
+      "status" : "broken",
+      "statusDetails" : "By is not defined",
+      "time" : {
+        "start" : 1584823632394,
+        "stop" : 1584823632849,
+        "duration" : 455
+      }
+    }, {
+      "uid" : "8227d96fc576f720",
+      "status" : "broken",
+      "statusDetails" : "By is not defined",
+      "time" : {
+        "start" : 1584823592312,
+        "stop" : 1584823592775,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "9cce8197489165a2",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584823325880,
+        "stop" : 1584823326600,
+        "duration" : 720
+      }
+    }, {
+      "uid" : "95e38e836d6c1b70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584823271891,
+        "stop" : 1584823271892,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "eff08ffa2fce996d",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584823234173,
+        "stop" : 1584823234815,
+        "duration" : 642
+      }
+    }, {
+      "uid" : "d98f20a65b6be46c",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: The result of the xpath expression \"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()\" is: [object Text]. It should be an element.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584823152148,
+        "stop" : 1584823152860,
+        "duration" : 712
+      }
+    }, {
+      "uid" : "2917e231dbc82c76",
+      "status" : "broken",
+      "statusDetails" : "\"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]\".getText is not a function",
+      "time" : {
+        "start" : 1584823036143,
+        "stop" : 1584823036655,
+        "duration" : 512
+      }
+    }, {
+      "uid" : "567f40518d32a499",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584822768998,
+        "stop" : 1584822770072,
+        "duration" : 1074
+      }
+    }, {
+      "uid" : "fdc3833e19fabc50",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getPrices' of undefined",
+      "time" : {
+        "start" : 1584822741018,
+        "stop" : 1584822741462,
+        "duration" : 444
+      }
+    }, {
+      "uid" : "45d04c49906aa3fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584822687708,
+        "stop" : 1584822687824,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "463beb131fc613b2",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getPrices' of undefined",
+      "time" : {
+        "start" : 1584822527585,
+        "stop" : 1584822528024,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "6aaa10a7a31b15df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584822111055,
+        "stop" : 1584822111964,
+        "duration" : 909
+      }
+    }, {
+      "uid" : "b9870df6dfba8e39",
+      "status" : "broken",
+      "statusDetails" : "$$(...).getText is not a function",
+      "time" : {
+        "start" : 1584822047873,
+        "stop" : 1584822048507,
+        "duration" : 634
+      }
+    }, {
+      "uid" : "3e0a1897dc8fabf2",
+      "status" : "broken",
+      "statusDetails" : "\"//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]\".getText is not a function",
+      "time" : {
+        "start" : 1584821945768,
+        "stop" : 1584821946231,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "fd56a7a5ae50ecad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584821904036,
+        "stop" : 1584821904189,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "c50bd3d3fb6998db",
+      "status" : "broken",
+      "statusDetails" : "smartphonePrices.map is not a function",
+      "time" : {
+        "start" : 1584821857877,
+        "stop" : 1584821858374,
+        "duration" : 497
+      }
+    }, {
+      "uid" : "defb86bd33ae418a",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'map' of undefined",
+      "time" : {
+        "start" : 1584821747774,
+        "stop" : 1584821748262,
+        "duration" : 488
+      }
+    }, {
+      "uid" : "9668874c922f7996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584821036228,
+        "stop" : 1584821037161,
+        "duration" : 933
+      }
+    }, {
+      "uid" : "5418f516e3b59586",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584804425998,
+        "stop" : 1584804426922,
+        "duration" : 924
+      }
+    }, {
+      "uid" : "6051a472a4e354f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584804377372,
+        "stop" : 1584804378610,
+        "duration" : 1238
+      }
+    }, {
+      "uid" : "4fac6b75d4e3cc1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584804029452,
+        "stop" : 1584804030541,
+        "duration" : 1089
+      }
+    }, {
+      "uid" : "6512bd950481f47f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584803812629,
+        "stop" : 1584803812720,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "b349ccf716bb920f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584803745047,
+        "stop" : 1584803745211,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "b0dee9d7d0a053b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584803658094,
+        "stop" : 1584803658167,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "ae93ff8726cf314f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584803522545,
+        "stop" : 1584803522616,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "6be30d0399a1a0c7",
+      "status" : "broken",
+      "statusDetails" : "$$(...).getText is not a function",
+      "time" : {
+        "start" : 1584803482444,
+        "stop" : 1584803483032,
+        "duration" : 588
+      }
+    }, {
+      "uid" : "aadd3862e70ac415",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584803035033,
+        "stop" : 1584803035033,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13ab163a8f80217d.json",
+  "parameterValues" : [ "chrome" ]
+}

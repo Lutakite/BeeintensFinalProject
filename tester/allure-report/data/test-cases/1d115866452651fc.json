@@ -1,0 +1,178 @@
+{
+  "uid" : "1d115866452651fc",
+  "name" : "\"before all\" hook",
+  "fullName" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ.\"before all\" hook",
+  "historyId" : "7c34e825ec9aaeda4b4d34357c2aeafc",
+  "time" : {
+    "start" : 1597418354851,
+    "stop" : 1597418356286,
+    "duration" : 1435
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce1479fc8e7c6c64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415988740,
+        "stop" : 1597415989477,
+        "duration" : 737
+      }
+    }, {
+      "uid" : "8602453e7b437895",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415728570,
+        "stop" : 1597415731167,
+        "duration" : 2597
+      }
+    }, {
+      "uid" : "958a5ce9f64e0ced",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880726722,
+        "stop" : 1584880727445,
+        "duration" : 723
+      }
+    }, {
+      "uid" : "e0ccc9b0e62033c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877245737,
+        "stop" : 1584877246538,
+        "duration" : 801
+      }
+    }, {
+      "uid" : "86eb6e4b9affbdc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877162987,
+        "stop" : 1584877164119,
+        "duration" : 1132
+      }
+    }, {
+      "uid" : "ce4cfd82213b50e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877088289,
+        "stop" : 1584877090675,
+        "duration" : 2386
+      }
+    }, {
+      "uid" : "90e1b182063f537e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877050091,
+        "stop" : 1584877050942,
+        "duration" : 851
+      }
+    }, {
+      "uid" : "34cb1c1d87988bf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876972243,
+        "stop" : 1584876972992,
+        "duration" : 749
+      }
+    }, {
+      "uid" : "76dbc363d94fffa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876905591,
+        "stop" : 1584876906360,
+        "duration" : 769
+      }
+    }, {
+      "uid" : "5b21fb7fb4b11b0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876692939,
+        "stop" : 1584876694328,
+        "duration" : 1389
+      }
+    }, {
+      "uid" : "5646bc2d44a1fe82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876344551,
+        "stop" : 1584876345397,
+        "duration" : 846
+      }
+    }, {
+      "uid" : "6bf5a167d52e568c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876218118,
+        "stop" : 1584876219090,
+        "duration" : 972
+      }
+    }, {
+      "uid" : "fac0e52d87e6ddf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876177589,
+        "stop" : 1584876178502,
+        "duration" : 913
+      }
+    }, {
+      "uid" : "d30589b6f98d86b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876128932,
+        "stop" : 1584876130058,
+        "duration" : 1126
+      }
+    }, {
+      "uid" : "ae4a5cc30fcce7eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828684267,
+        "stop" : 1584828685067,
+        "duration" : 800
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d115866452651fc.json",
+  "parameterValues" : [ "chrome" ]
+}

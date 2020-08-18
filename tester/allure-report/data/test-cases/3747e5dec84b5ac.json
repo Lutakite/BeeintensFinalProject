@@ -1,0 +1,91 @@
+{
+  "uid" : "3747e5dec84b5ac",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "fullName" : "Test Beeline Shop.Переход в раздел \"Телефоны\" состоялся",
+  "historyId" : "a8d46f95c369782ea4f92c46758ac02",
+  "time" : {
+    "start" : 1584826380311,
+    "stop" : 1584826385414,
+    "duration" : 5103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <a class=\"DevicesMenu_component_2FId\" href=\"/shop/catalog/telefony/\">...</a> is not clickable at point (341, 349). Other element would receive the click: <div class=\"Header_overlay_25r- Header_blur_2MYZ\"></div>\n                  (Session info: chrome=80.0.3987.149)",
+  "statusTrace" : "element click intercepted: Element <a class=\"DevicesMenu_component_2FId\" href=\"/shop/catalog/telefony/\">...</a> is not clickable at point (341, 349). Other element would receive the click: <div class=\"Header_overlay_25r- Header_blur_2MYZ\"></div>\n                  (Session info: chrome=80.0.3987.149)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at MainPage.toPhones (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/main.page.js:13:25)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:32:31)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <a class=\"DevicesMenu_component_2FId\" href=\"/shop/catalog/telefony/\">...</a> is not clickable at point (341, 349). Other element would receive the click: <div class=\"Header_overlay_25r- Header_blur_2MYZ\"></div>\n                  (Session info: chrome=80.0.3987.149)",
+    "statusTrace" : "element click intercepted: Element <a class=\"DevicesMenu_component_2FId\" href=\"/shop/catalog/telefony/\">...</a> is not clickable at point (341, 349). Other element would receive the click: <div class=\"Header_overlay_25r- Header_blur_2MYZ\"></div>\n                  (Session info: chrome=80.0.3987.149)\n                    at getErrorFromResponseBody (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriver\\build\\request.js:121:64)\n                    at Request.self.callback (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\request\\request.js:1076:12)\n                    at Element.runCommandWithHooks (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at MainPage.toPhones (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\pages\\/main.page.js:13:25)\n                    at Context.<anonymous> (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\tests\\/hw5_dmitrieva.js:32:31)\n                    at Context.executeSync (C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\lutak\\Desktop\\beeintern\\lect\\5\\hw\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Нажать на ссылку \"Телефоны\"",
+      "time" : {
+        "start" : 1584826380312,
+        "stop" : 1584826380312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5514d2c97bcb1cb2",
+      "name" : "Screenshot",
+      "source" : "5514d2c97bcb1cb2.png",
+      "type" : "image/png",
+      "size" : 293792
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Переход в раздел \"Телефоны\" состоялся"
+  }, {
+    "name" : "package",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3747e5dec84b5ac.json",
+  "parameterValues" : [ "chrome" ]
+}
