@@ -1,0 +1,534 @@
+{
+  "uid" : "f875cc0570fad478",
+  "name" : "Сортировка по ценам работает корректно",
+  "fullName" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ.Сортировка по ценам работает корректно",
+  "historyId" : "7e799ae30a0cfeef13c7b204d93362a4",
+  "time" : {
+    "start" : 1597418359431,
+    "stop" : 1597418359955,
+    "duration" : 524
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получить цены отображенных товаров",
+      "time" : {
+        "start" : 1597418359432,
+        "stop" : 1597418359432,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359953,
+        "stop" : 1597418359953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что цена в верном диапазоне",
+      "time" : {
+        "start" : 1597418359954,
+        "stop" : 1597418359954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 25,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Сортировка по ценам работает корректно"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "83690e210618068e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415992703,
+        "stop" : 1597415993219,
+        "duration" : 516
+      }
+    }, {
+      "uid" : "ee6a0c5e3d5c2932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415734169,
+        "stop" : 1597415734596,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "30b03fe9fb6da800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880731728,
+        "stop" : 1584880732248,
+        "duration" : 520
+      }
+    }, {
+      "uid" : "a6e55006e15e5778",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877250220,
+        "stop" : 1584877250825,
+        "duration" : 605
+      }
+    }, {
+      "uid" : "951af89fba149d0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877168078,
+        "stop" : 1584877168612,
+        "duration" : 534
+      }
+    }, {
+      "uid" : "1eec365da7147754",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1584877093540,
+        "stop" : 1584877095026,
+        "duration" : 1486
+      }
+    }, {
+      "uid" : "164a45be33ab2daa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877054717,
+        "stop" : 1584877054736,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "d3b923afa491e2b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876976471,
+        "stop" : 1584876976491,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "8286c9d5f3cf8042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876915624,
+        "stop" : 1584876915645,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "524c7139c9923897",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //div[contains(text(), '₽')] and //div[contains(@class,'h3')] because of the following error:\n                TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584876698584,
+        "stop" : 1584876699226,
+        "duration" : 642
+      }
+    }, {
+      "uid" : "bf169830c6becc04",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1584876349175,
+        "stop" : 1584876350714,
+        "duration" : 1539
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f875cc0570fad478.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,175 @@
+{
+  "uid" : "ba986f8c8adbffa2",
+  "name" : "Нажатие на \"Восстановить\" возвращает товар",
+  "fullName" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ.Нажатие на \"Восстановить\" возвращает товар",
+  "historyId" : "20eb2d7920fce089f15f8e3dada10d19",
+  "time" : {
+    "start" : 1597418367231,
+    "stop" : 1597418368039,
+    "duration" : 808
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на \"Восстановить\" в корзине",
+      "time" : {
+        "start" : 1597418367231,
+        "stop" : 1597418367231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что пропало сообщение: \"Товар был удален из корзины\"",
+      "time" : {
+        "start" : 1597418367975,
+        "stop" : 1597418367975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Нажатие на \"Восстановить\" возвращает товар"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd13a07ec2c44624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597418008832,
+        "stop" : 1597418009801,
+        "duration" : 969
+      }
+    }, {
+      "uid" : "4684e211d6f59d35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417929230,
+        "stop" : 1597417929613,
+        "duration" : 383
+      }
+    }, {
+      "uid" : "41003bac0293fae9",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@data-ng-click,'restoreItem')]//*[name()='svg']\" because element wasn't found",
+      "time" : {
+        "start" : 1597417823462,
+        "stop" : 1597417833996,
+        "duration" : 10534
+      }
+    }, {
+      "uid" : "f39c1186f17328dc",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@data-ng-click,'restoreItem')]\" because element wasn't found",
+      "time" : {
+        "start" : 1597416874953,
+        "stop" : 1597416885379,
+        "duration" : 10426
+      }
+    }, {
+      "uid" : "8367ef15d67ad1c4",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@data-ng-click,'restoreItem')]\" because element wasn't found",
+      "time" : {
+        "start" : 1597416764192,
+        "stop" : 1597416774728,
+        "duration" : 10536
+      }
+    }, {
+      "uid" : "265ba5cf6910845c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'restoreToCart' of undefined",
+      "time" : {
+        "start" : 1597416057927,
+        "stop" : 1597416058319,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "d8f0cc483ea56d1",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'restoreToCart' of undefined",
+      "time" : {
+        "start" : 1597415750729,
+        "stop" : 1597415751172,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "d3bee4d2ee064aad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880739525,
+        "stop" : 1584880739891,
+        "duration" : 366
+      }
+    }, {
+      "uid" : "7dcd722b40bf7eac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880639490,
+        "stop" : 1584880644956,
+        "duration" : 5466
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba986f8c8adbffa2.json",
+  "parameterValues" : [ "chrome" ]
+}

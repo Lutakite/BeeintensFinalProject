@@ -1,0 +1,218 @@
+{
+  "uid" : "1d0cd4909c69f4b9",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "fullName" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ.Переход в раздел \"Телефоны\" состоялся",
+  "historyId" : "b96902838fe0086723d099a90c19e12c",
+  "time" : {
+    "start" : 1597418356286,
+    "stop" : 1597418358053,
+    "duration" : 1767
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на ссылку \"Телефоны\"",
+      "time" : {
+        "start" : 1597418356287,
+        "stop" : 1597418356287,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что URL изменился на верный",
+      "time" : {
+        "start" : 1597418358043,
+        "stop" : 1597418358043,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Переход в раздел \"Телефоны\" состоялся"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task2_Dmitrieva СОРТИРОВКА ПО ЦЕНЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ba6ce792586ce66a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415989477,
+        "stop" : 1597415991408,
+        "duration" : 1931
+      }
+    }, {
+      "uid" : "403fc2147735a5f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415731168,
+        "stop" : 1597415732503,
+        "duration" : 1335
+      }
+    }, {
+      "uid" : "3f81efce3dabbf96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880727445,
+        "stop" : 1584880729116,
+        "duration" : 1671
+      }
+    }, {
+      "uid" : "8c53423f413ed857",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877246538,
+        "stop" : 1584877248137,
+        "duration" : 1599
+      }
+    }, {
+      "uid" : "883c9c6062790558",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877164119,
+        "stop" : 1584877165736,
+        "duration" : 1617
+      }
+    }, {
+      "uid" : "47415182d244914b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877090676,
+        "stop" : 1584877092221,
+        "duration" : 1545
+      }
+    }, {
+      "uid" : "5379d1231642af42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877050942,
+        "stop" : 1584877052513,
+        "duration" : 1571
+      }
+    }, {
+      "uid" : "4783d1d75520a532",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876972992,
+        "stop" : 1584876974753,
+        "duration" : 1761
+      }
+    }, {
+      "uid" : "44eaaf1b6290eda3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876906361,
+        "stop" : 1584876912524,
+        "duration" : 6163
+      }
+    }, {
+      "uid" : "2504b0b7c19b245b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876694328,
+        "stop" : 1584876696035,
+        "duration" : 1707
+      }
+    }, {
+      "uid" : "5f6f2f81cf5ae3d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876345397,
+        "stop" : 1584876347106,
+        "duration" : 1709
+      }
+    }, {
+      "uid" : "acec15eee6e8d3e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876219090,
+        "stop" : 1584876220669,
+        "duration" : 1579
+      }
+    }, {
+      "uid" : "2758ebdf113f78a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876178502,
+        "stop" : 1584876180264,
+        "duration" : 1762
+      }
+    }, {
+      "uid" : "93623bf3288cddae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584876130058,
+        "stop" : 1584876131658,
+        "duration" : 1600
+      }
+    }, {
+      "uid" : "c3d8f0f1c275d607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584828685067,
+        "stop" : 1584828687051,
+        "duration" : 1984
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d0cd4909c69f4b9.json",
+  "parameterValues" : [ "chrome" ]
+}

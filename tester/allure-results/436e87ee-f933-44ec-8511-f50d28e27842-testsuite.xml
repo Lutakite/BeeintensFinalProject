@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584824941870' stop='1584824952992'>
+    <name>Test Beeline Shop</name>
+    <title>Test Beeline Shop</title>
+    <test-cases>
+        <test-case start='1584824941871' status='passed' stop='1584824947851'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='browserName: ' value='Chrome'/>
+                <parameter kind='environment-variable' name='browserVersion: ' value='80.0.3987.132'/>
+                <parameter kind='environment-variable' name='OS: ' value='Win10 Pro x64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584824947852' status='passed' stop='1584824951557'>
+            <name>Переход в раздел "Телефоны" состоялся</name>
+            <title>Переход в раздел "Телефоны" состоялся</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584824947853' status='passed' stop='1584824947853'>
+                    <name>Нажать на ссылку "Телефоны"</name>
+                    <title>Нажать на ссылку "Телефоны"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584824951538' status='passed' stop='1584824951538'>
+                    <name>Проверить, что URL изменился на верный</name>
+                    <title>Проверить, что URL изменился на верный</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584824951558' status='passed' stop='1584824952299'>
+            <name>Применен фильтр по ценам</name>
+            <title>Применен фильтр по ценам</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584824951558' status='passed' stop='1584824951558'>
+                    <name>Получить плейсхолдер цены "до"</name>
+                    <title>Получить плейсхолдер цены "до"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1584824951592' status='passed' stop='1584824951592'>
+                    <name>Ввести значение цены "от"</name>
+                    <title>Ввести значение цены "от"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1584824952300' status='broken' stop='1584824952991'>
+            <name>Фильтр по ценам работает корректно</name>
+            <title>Фильтр по ценам работает корректно</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584824952300' status='passed' stop='1584824952300'>
+                    <name>Получить цены отображенных товаров</name>
+                    <title>Получить цены отображенных товаров</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='639f2edd-bbcc-497e-b5fb-b0f7bb129c7d-attachment.png' type='image/png' size='213832'/>
+            </attachments>
+            <failure>
+                <message>invalid selector: The result of the xpath expression "//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()" is: [object Text]. It should be an element.
+                  (Session info: chrome=80.0.3987.149)</message>
+                <stack-trace>invalid selector: The result of the xpath expression "//div[contains(@class,'Heading')]//div[contains(@class,'InlineSet_item')]/text()" is: [object Text]. It should be an element.
+                  (Session info: chrome=80.0.3987.149)
+                    at getErrorFromResponseBody (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriver\build\utils.js:124:10)
+                    at Request._callback (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\request\request.js:185:22)
+                    at Request.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\request\request.js:1154:10)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\request\request.js:1076:12)
+                    at Browser.runCommandWithHooks (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at $ (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\runner\build\index.js:192:36)
+                    at PhonesPage.getPrices (C:\Users\lutak\Desktop\beeintern\lect\5\hw\pages\/phones.page.js:69:21)
+                    at Context.&lt;anonymous> (C:\Users\lutak\Desktop\beeintern\lect\5\hw\tests\/hw5_dmitrieva.js:51:39)
+                    at Context.executeSync (C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\lutak\Desktop\beeintern\lect\5\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "expect is not defined",
+      "children" : [ {
+        "name" : "2 Buy cheap phone",
+        "uid" : "73f52978a16e5a10",
+        "parentUid" : "07f83ab2c1f512ef92084fbcf7db964b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1584799320759,
+          "stop" : 1584799321426,
+          "duration" : 667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "07f83ab2c1f512ef92084fbcf7db964b"
+    }, {
+      "name" : "Can't call click on element with selector \"#checkbox__proizvoditel_proizvoditel-nokia\" because element wasn't found",
+      "children" : [ {
+        "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+        "uid" : "7bd33685d71acc7c",
+        "parentUid" : "bbac2ee7c50f4697bacb8568f56f4a1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1584821580077,
+          "stop" : 1584821590831,
+          "duration" : 10754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "bbac2ee7c50f4697bacb8568f56f4a1b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,163 @@
+{
+  "uid" : "594bddef8a72abd4",
+  "name" : "1 Show all Apple phones",
+  "fullName" : "Test Beeline Shop.1 Show all Apple phones",
+  "historyId" : "fe813f667adf66ef0cbf8e3661575180",
+  "time" : {
+    "start" : 1584800129438,
+    "stop" : 1584800132834,
+    "duration" : 3396
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Пользователь разворачивает всех производителей телефонов",
+      "time" : {
+        "start" : 1584800129439,
+        "stop" : 1584800129439,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Пользователь выбирает производителя Apple",
+      "time" : {
+        "start" : 1584800129753,
+        "stop" : 1584800129753,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Пользователь проверяют, что отображены телефоны Apple",
+      "time" : {
+        "start" : 1584800132798,
+        "stop" : 1584800132798,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "1 Show all Apple phones"
+  }, {
+    "name" : "package",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55046193fab5e5b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584799848350,
+        "stop" : 1584799851355,
+        "duration" : 3005
+      }
+    }, {
+      "uid" : "becc413c3f10dce9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584799455111,
+        "stop" : 1584799462016,
+        "duration" : 6905
+      }
+    }, {
+      "uid" : "55037f46650cfe70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584799410929,
+        "stop" : 1584799417906,
+        "duration" : 6977
+      }
+    }, {
+      "uid" : "44483f4ce532f93c",
+      "status" : "broken",
+      "statusDetails" : "expect is not defined",
+      "time" : {
+        "start" : 1584799373510,
+        "stop" : 1584799374386,
+        "duration" : 876
+      }
+    }, {
+      "uid" : "e77341ada67f7810",
+      "status" : "broken",
+      "statusDetails" : "expect is not defined",
+      "time" : {
+        "start" : 1584799319784,
+        "stop" : 1584799320758,
+        "duration" : 974
+      }
+    }, {
+      "uid" : "c07c026f2516a73d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1584471383971,
+        "stop" : 0,
+        "duration" : -1584471383971
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "594bddef8a72abd4.json",
+  "parameterValues" : [ "chrome" ]
+}

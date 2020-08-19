@@ -1,0 +1,74 @@
+{
+  "uid" : "fa31a724ec6e0405",
+  "name" : "\"before all\" hook",
+  "fullName" : "Добавление товаров в корзину.\"before all\" hook",
+  "historyId" : "65808e944209737383b5e0904ce0d820",
+  "time" : {
+    "start" : 1584820982469,
+    "stop" : 1584820988339,
+    "duration" : 5870
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testClass",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3112487b374c5e44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584798824399,
+        "stop" : 1584798832550,
+        "duration" : 8151
+      }
+    }, {
+      "uid" : "f25c336416ef6d28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584798716923,
+        "stop" : 1584798732742,
+        "duration" : 15819
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa31a724ec6e0405.json",
+  "parameterValues" : [ "chrome" ]
+}

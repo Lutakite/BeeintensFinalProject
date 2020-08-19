@@ -1,0 +1,168 @@
+{
+  "uid" : "119e901fedbac1e",
+  "name" : "Список товаров обновился по фильтру цен",
+  "fullName" : "Test Beeline Shop.Список товаров обновился по фильтру цен",
+  "historyId" : "5333a16ea5e7b1d0a560cf971e39719f",
+  "time" : {
+    "start" : 1584802472396,
+    "stop" : 1584802483253,
+    "duration" : 10857
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Список товаров обновился по фильтру цен"
+  }, {
+    "name" : "package",
+    "value" : "Test Beeline Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b80f7da67ec6c47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584802401421,
+        "stop" : 1584802412487,
+        "duration" : 11066
+      }
+    }, {
+      "uid" : "f6e2778428b3c993",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584802327975,
+        "stop" : 1584802339263,
+        "duration" : 11288
+      }
+    }, {
+      "uid" : "13b6d8dc9ff7bb07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584802273484,
+        "stop" : 1584802284274,
+        "duration" : 10790
+      }
+    }, {
+      "uid" : "feebf964eee59e78",
+      "status" : "broken",
+      "statusDetails" : "broeser is not defined",
+      "time" : {
+        "start" : 1584802244534,
+        "stop" : 1584802245850,
+        "duration" : 1316
+      }
+    }, {
+      "uid" : "47069f25bef336aa",
+      "status" : "broken",
+      "statusDetails" : "broeser is not defined",
+      "time" : {
+        "start" : 1584802194681,
+        "stop" : 1584802196182,
+        "duration" : 1501
+      }
+    }, {
+      "uid" : "8e8062505eaa4789",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584802070128,
+        "stop" : 1584802070203,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "3b592290929764a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584802009793,
+        "stop" : 1584802009830,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "1d4da6c2c80fe6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584801852553,
+        "stop" : 1584801852630,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "49cc84544393e80f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584801784778,
+        "stop" : 1584801784824,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "42f505be5661c1c0",
+      "status" : "broken",
+      "statusDetails" : "this.priceFilterPH is not a function",
+      "time" : {
+        "start" : 1584801669443,
+        "stop" : 1584801670153,
+        "duration" : 710
+      }
+    }, {
+      "uid" : "f7adfe79dc383562",
+      "status" : "broken",
+      "statusDetails" : "$$(...)[1].getAttribure is not a function",
+      "time" : {
+        "start" : 1584801638226,
+        "stop" : 1584801638858,
+        "duration" : 632
+      }
+    }, {
+      "uid" : "e2f8046ca5299ca6",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584801552553,
+        "stop" : 1584801553183,
+        "duration" : 630
+      }
+    }, {
+      "uid" : "f6eef835830296ca",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584801460300,
+        "stop" : 1584801460949,
+        "duration" : 649
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "119e901fedbac1e.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,345 @@
+{
+  "uid" : "68e01e41cc1b5d27",
+  "name" : "Нажатие на крестик удаляет из корзины",
+  "fullName" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ.Нажатие на крестик удаляет из корзины",
+  "historyId" : "e5624c8a1a819f45b08b9edc50a325e0",
+  "time" : {
+    "start" : 1597418366840,
+    "stop" : 1597418367230,
+    "duration" : 390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на крестик в корзине",
+      "time" : {
+        "start" : 1597418366840,
+        "stop" : 1597418366840,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что появилось сообщение: \"Товар был удален из корзины\"",
+      "time" : {
+        "start" : 1597418367170,
+        "stop" : 1597418367170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Нажатие на крестик удаляет из корзины"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e9c2bed1ef6ab7db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597418008322,
+        "stop" : 1597418008832,
+        "duration" : 510
+      }
+    }, {
+      "uid" : "c740a03f570ef745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417928168,
+        "stop" : 1597417929230,
+        "duration" : 1062
+      }
+    }, {
+      "uid" : "96602048170dad2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417823055,
+        "stop" : 1597417823462,
+        "duration" : 407
+      }
+    }, {
+      "uid" : "4820798bc61c8ffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417767680,
+        "stop" : 1597417768015,
+        "duration" : 335
+      }
+    }, {
+      "uid" : "604a1f1eaffb0ee",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@data-ng-click,'deleteItem')]//svg\" because element wasn't found",
+      "time" : {
+        "start" : 1597417403387,
+        "stop" : 1597417414104,
+        "duration" : 10717
+      }
+    }, {
+      "uid" : "bbf71f747d767adc",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: element has zero size\n                  (Session info: chrome=84.0.4147.125)",
+      "time" : {
+        "start" : 1597417116893,
+        "stop" : 1597417117567,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "462bea6a8b1b767b",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: element has zero size\n                  (Session info: chrome=84.0.4147.125)",
+      "time" : {
+        "start" : 1597416874324,
+        "stop" : 1597416874953,
+        "duration" : 629
+      }
+    }, {
+      "uid" : "278ac94fe0ea818e",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: element has zero size\n                  (Session info: chrome=84.0.4147.125)",
+      "time" : {
+        "start" : 1597416763402,
+        "stop" : 1597416764191,
+        "duration" : 789
+      }
+    }, {
+      "uid" : "572c4c02def09586",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'deleteFromCart' of undefined",
+      "time" : {
+        "start" : 1597416057505,
+        "stop" : 1597416057926,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "39cfee96a88aa18f",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'deleteFromCart' of undefined",
+      "time" : {
+        "start" : 1597415750265,
+        "stop" : 1597415750728,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "8c5a31dc73342f11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880739124,
+        "stop" : 1584880739525,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "77184e990738f1c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880638783,
+        "stop" : 1584880639490,
+        "duration" : 707
+      }
+    }, {
+      "uid" : "a52b831312182b8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880478146,
+        "stop" : 1584880483853,
+        "duration" : 5707
+      }
+    }, {
+      "uid" : "9f8a9e773071867c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880428587,
+        "stop" : 1584880434222,
+        "duration" : 5635
+      }
+    }, {
+      "uid" : "8c5d7b8c208765e6",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//ts[contains(@class,'td__count')]//span\" because element wasn't found",
+      "time" : {
+        "start" : 1584880375555,
+        "stop" : 1584880386425,
+        "duration" : 10870
+      }
+    }, {
+      "uid" : "e7d7af61f051268",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, elementId, ...) } to be a null",
+      "time" : {
+        "start" : 1584880063526,
+        "stop" : 1584880064650,
+        "duration" : 1124
+      }
+    }, {
+      "uid" : "577f4cdd433a813c",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//div[contains(@class,'service-note')]//span\" because element wasn't found",
+      "time" : {
+        "start" : 1584880015035,
+        "stop" : 1584880026520,
+        "duration" : 11485
+      }
+    }, {
+      "uid" : "3adabf075555a945",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879799780,
+        "stop" : 1584879800411,
+        "duration" : 631
+      }
+    }, {
+      "uid" : "24707982d85a4c46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879750209,
+        "stop" : 1584879760834,
+        "duration" : 10625
+      }
+    }, {
+      "uid" : "f6e9bedac69fc91a",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//span[contains(@text,'удален')]\" because element wasn't found",
+      "time" : {
+        "start" : 1584879556093,
+        "stop" : 1584879567169,
+        "duration" : 11076
+      }
+    }, {
+      "uid" : "c6426df7769a130a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879391899,
+        "stop" : 1584879402574,
+        "duration" : 10675
+      }
+    }, {
+      "uid" : "ab8448a5bd4d2107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879352563,
+        "stop" : 1584879358233,
+        "duration" : 5670
+      }
+    }, {
+      "uid" : "356cc592f8733053",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878773809,
+        "stop" : 1584878774091,
+        "duration" : 282
+      }
+    }, {
+      "uid" : "185d7224d13b1cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878447780,
+        "stop" : 1584878463094,
+        "duration" : 15314
+      }
+    }, {
+      "uid" : "5d140b2e8367433d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'deleteFromCart' of undefined",
+      "time" : {
+        "start" : 1584878156565,
+        "stop" : 1584878157129,
+        "duration" : 564
+      }
+    }, {
+      "uid" : "6899c554fedf0568",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'deleteFromCart' of undefined",
+      "time" : {
+        "start" : 1584878091225,
+        "stop" : 1584878091683,
+        "duration" : 458
+      }
+    }, {
+      "uid" : "a034d819f65df683",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'deleteFromCart' of undefined",
+      "time" : {
+        "start" : 1584878048795,
+        "stop" : 1584878049256,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "8a04153c25935f78",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'deleteFromCart' of undefined",
+      "time" : {
+        "start" : 1584877927758,
+        "stop" : 1584877928194,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "b4e8b650f38e159",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'deleteFromCart' of undefined",
+      "time" : {
+        "start" : 1584877804133,
+        "stop" : 1584877804655,
+        "duration" : 522
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68e01e41cc1b5d27.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,402 @@
+{
+  "uid" : "f63b3e707f9be594",
+  "name" : "Переход в раздел \"Телефоны\" состоялся",
+  "fullName" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ.Переход в раздел \"Телефоны\" состоялся",
+  "historyId" : "c145f2f31b34f72b4876a41bd491672",
+  "time" : {
+    "start" : 1597418360926,
+    "stop" : 1597418362544,
+    "duration" : 1618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на ссылку \"Телефоны\"",
+      "time" : {
+        "start" : 1597418360927,
+        "stop" : 1597418360927,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что URL изменился на верный",
+      "time" : {
+        "start" : 1597418361814,
+        "stop" : 1597418361814,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "testMethod",
+    "value" : "Переход в раздел \"Телефоны\" состоялся"
+  }, {
+    "name" : "package",
+    "value" : "HW5_Task3_Dmitrieva УДАЛЕНИЕ ТОВАРА ИЗ КОРЗИНЫ И ЕГО ВОССТАНОВЛЕНИЕ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "15ff8d7a39e5c167",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597418001658,
+        "stop" : 1597418003613,
+        "duration" : 1955
+      }
+    }, {
+      "uid" : "26c2f48c0247d916",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417921074,
+        "stop" : 1597417923435,
+        "duration" : 2361
+      }
+    }, {
+      "uid" : "766ed0e70a3a598f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417815898,
+        "stop" : 1597417818656,
+        "duration" : 2758
+      }
+    }, {
+      "uid" : "aaa2a42af394984e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417755749,
+        "stop" : 1597417762957,
+        "duration" : 7208
+      }
+    }, {
+      "uid" : "6e0bf5ed722b95d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417396501,
+        "stop" : 1597417399295,
+        "duration" : 2794
+      }
+    }, {
+      "uid" : "1711e778d065c581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597417109418,
+        "stop" : 1597417112796,
+        "duration" : 3378
+      }
+    }, {
+      "uid" : "29a86c6b0c42f96c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416938946,
+        "stop" : 1597416941599,
+        "duration" : 2653
+      }
+    }, {
+      "uid" : "73f8f994978c1498",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416867999,
+        "stop" : 1597416869854,
+        "duration" : 1855
+      }
+    }, {
+      "uid" : "5c01b158b4cd7a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416756199,
+        "stop" : 1597416759001,
+        "duration" : 2802
+      }
+    }, {
+      "uid" : "9f815ed714bc115f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416707363,
+        "stop" : 1597416710107,
+        "duration" : 2744
+      }
+    }, {
+      "uid" : "f6385028b5e171c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416656782,
+        "stop" : 1597416659010,
+        "duration" : 2228
+      }
+    }, {
+      "uid" : "4968e4bc154f0f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416236703,
+        "stop" : 1597416239135,
+        "duration" : 2432
+      }
+    }, {
+      "uid" : "b81da84a9f68d3fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416119763,
+        "stop" : 1597416122438,
+        "duration" : 2675
+      }
+    }, {
+      "uid" : "d1fcdd0c8e6058a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597416041697,
+        "stop" : 1597416045137,
+        "duration" : 3440
+      }
+    }, {
+      "uid" : "99bb1c741519153d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597415735634,
+        "stop" : 1597415737244,
+        "duration" : 1610
+      }
+    }, {
+      "uid" : "c01575831d375179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880733122,
+        "stop" : 1584880734823,
+        "duration" : 1701
+      }
+    }, {
+      "uid" : "7d3be31088170999",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880632420,
+        "stop" : 1584880634652,
+        "duration" : 2232
+      }
+    }, {
+      "uid" : "77622f30a0f9797",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880471427,
+        "stop" : 1584880473677,
+        "duration" : 2250
+      }
+    }, {
+      "uid" : "55303d94aefca6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880420320,
+        "stop" : 1584880423661,
+        "duration" : 3341
+      }
+    }, {
+      "uid" : "51b337b7c45855f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880368656,
+        "stop" : 1584880370670,
+        "duration" : 2014
+      }
+    }, {
+      "uid" : "dfcc95ce3e4ed599",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880054852,
+        "stop" : 1584880058611,
+        "duration" : 3759
+      }
+    }, {
+      "uid" : "4f57500e274d21a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584880005648,
+        "stop" : 1584880008579,
+        "duration" : 2931
+      }
+    }, {
+      "uid" : "150407a1d013347c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879792039,
+        "stop" : 1584879795262,
+        "duration" : 3223
+      }
+    }, {
+      "uid" : "b4f6d8ea9accf884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879742211,
+        "stop" : 1584879745293,
+        "duration" : 3082
+      }
+    }, {
+      "uid" : "43e5a8d674e0e8d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879549914,
+        "stop" : 1584879552179,
+        "duration" : 2265
+      }
+    }, {
+      "uid" : "ed616bf5ba976474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879385237,
+        "stop" : 1584879387207,
+        "duration" : 1970
+      }
+    }, {
+      "uid" : "2a6909aa86798758",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584879344697,
+        "stop" : 1584879347970,
+        "duration" : 3273
+      }
+    }, {
+      "uid" : "25acb039ff0c53f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878765706,
+        "stop" : 1584878769212,
+        "duration" : 3506
+      }
+    }, {
+      "uid" : "40111df82be940fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878441216,
+        "stop" : 1584878443225,
+        "duration" : 2009
+      }
+    }, {
+      "uid" : "35bd4d35c848a5ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878361242,
+        "stop" : 1584878363216,
+        "duration" : 1974
+      }
+    }, {
+      "uid" : "4f67314cf11bbd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878310254,
+        "stop" : 1584878312651,
+        "duration" : 2397
+      }
+    }, {
+      "uid" : "ba4e124f072a4d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878263737,
+        "stop" : 1584878265672,
+        "duration" : 1935
+      }
+    }, {
+      "uid" : "d5dfc6b5d5e0f075",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878190787,
+        "stop" : 1584878194054,
+        "duration" : 3267
+      }
+    }, {
+      "uid" : "1c268d6f9956dbed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878153809,
+        "stop" : 1584878155913,
+        "duration" : 2104
+      }
+    }, {
+      "uid" : "1555e65e12e984e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878088408,
+        "stop" : 1584878090680,
+        "duration" : 2272
+      }
+    }, {
+      "uid" : "f19afdecc77d9136",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584878046388,
+        "stop" : 1584878048132,
+        "duration" : 1744
+      }
+    }, {
+      "uid" : "cd14e4e7f51ab6a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877925447,
+        "stop" : 1584877927216,
+        "duration" : 1769
+      }
+    }, {
+      "uid" : "d1760996313b7d66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584877801731,
+        "stop" : 1584877803584,
+        "duration" : 1853
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f63b3e707f9be594.json",
+  "parameterValues" : [ "chrome" ]
+}

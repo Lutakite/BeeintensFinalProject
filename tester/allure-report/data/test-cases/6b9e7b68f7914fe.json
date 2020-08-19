@@ -1,0 +1,129 @@
+{
+  "uid" : "6b9e7b68f7914fe",
+  "name" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+  "fullName" : "Добавление товаров в корзину.Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia",
+  "historyId" : "4b996fe04fbc225a60a489add94e257",
+  "time" : {
+    "start" : 1584820991707,
+    "stop" : 1584820995956,
+    "duration" : 4249
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на \"Показать все\" в блоке производителей",
+      "time" : {
+        "start" : 1584820991707,
+        "stop" : 1584820991707,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбрать Nokia в фильтре",
+      "time" : {
+        "start" : 1584820992028,
+        "stop" : 1584820992028,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить, что все смартфоны из списка – Nokia",
+      "time" : {
+        "start" : 1584820995226,
+        "stop" : 1584820995226,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testClass",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "testMethod",
+    "value" : "Фильтрация по производителю – Nokia: отображаются только смартфоны Nokia"
+  }, {
+    "name" : "package",
+    "value" : "Добавление товаров в корзину"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4936b7829e944fa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584798835513,
+        "stop" : 1584798839712,
+        "duration" : 4199
+      }
+    }, {
+      "uid" : "1bcd2de65e298144",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584798737257,
+        "stop" : 1584798741684,
+        "duration" : 4427
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b9e7b68f7914fe.json",
+  "parameterValues" : [ "chrome" ]
+}

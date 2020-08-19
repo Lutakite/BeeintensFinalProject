@@ -1,0 +1,207 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597435254265' stop='1597435460820'>
+    <name>Test Beeline Shop</name>
+    <title>Test Beeline Shop</title>
+    <test-cases>
+        <test-case start='1597435254265' status='passed' stop='1597435254758'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597435254759' status='undefined'>
+            <name>Перейти на вкладку "Лекции"</name>
+            <title>Перейти на вкладку "Лекции"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597435254759' status='broken' stop='1597435258362'>
+            <name>Перейти на вкладку "Лекции"</name>
+            <title>Перейти на вкладку "Лекции"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='58ab22ad-266a-4fd1-a17f-4a8c032545d0-attachment.png' type='image/png' size='135196'/>
+            </attachments>
+            <failure>
+                <message>title is not defined</message>
+                <stack-trace>ReferenceError: title is not defined
+                    at Context.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\/homeWork3.js:19:14)
+                    at Context.executeSync (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597435258362' status='undefined'>
+            <name>Нажать кнопку "Показать все" в разделе "Производители"</name>
+            <title>Нажать кнопку "Показать все" в разделе "Производители"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597435258362' status='broken' stop='1597435271758'>
+            <name>Нажать кнопку "Показать все" в разделе "Производители"</name>
+            <title>Нажать кнопку "Показать все" в разделе "Производители"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='58b6245c-5b0e-47a3-b528-772d1ee8e1b4-attachment.png' type='image/png' size='135196'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//div[./span[text()='Производитель']]/following-sibling::div/span" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[./span[text()='Производитель']]/following-sibling::div/span" because element wasn't found
+                    at implicitWait (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.click (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\/homeWork3.js:27:17)
+                    at Context.executeSync (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597435271758' status='undefined'>
+            <name>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</name>
+            <title>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597435271758' status='broken' stop='1597435334783'>
+            <name>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</name>
+            <title>Выбрать производителя Мейзу, но его нет уже, поэтому выберем Алкатель</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\homeWork3.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\homeWork3.js)
+                    at Test.Runnable._timeoutError (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\mocha\lib\runnable.js:463:10)
+                    at Timeout.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\mocha\lib\runnable.js:267:24)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597435334784' status='undefined'>
+            <name>Отсортируем по цене</name>
+            <title>Отсортируем по цене</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597435334784' status='broken' stop='1597435397791'>
+            <name>Отсортируем по цене</name>
+            <title>Отсортируем по цене</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\homeWork3.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\homeWork3.js)
+                    at Test.Runnable._timeoutError (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\mocha\lib\runnable.js:463:10)
+                    at Timeout.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\mocha\lib\runnable.js:267:24)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597435397791' status='undefined'>
+            <name>Купим телефон из середины списка</name>
+            <title>Купим телефон из середины списка</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597435397792' status='broken' stop='1597435460819'>
+            <name>Купим телефон из середины списка</name>
+            <title>Купим телефон из середины списка</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\homeWork3.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\tests\homeWork3.js)
+                    at Test.Runnable._timeoutError (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\mocha\lib\runnable.js:463:10)
+                    at Timeout.&lt;anonymous> (C:\Users\SidWonder\Desktop\Новая папка (8)\hw\node_modules\mocha\lib\runnable.js:267:24)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
